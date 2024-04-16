@@ -6,31 +6,28 @@
 
 body {
     width: 100%;
-    /* padding: 0;
-    margin: 0; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-header {
-    background-color: #0000ff;
-    padding: 10px 0; 
-}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: black; */
-}
-.name {
-    color: #add8e6;
-    text-transform: capitalize;
-    margin-left: 2rem;
-    /* font-weight: 600; */
-    font-size: 21px;
-    font-family: "Pacifico", cursive;
+    padding: 10px 0;  
+    background-color: #000;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: normal;
-      
-      
+    font-size: 20px;
+}
+.name {
+    color: #add8e6; 
+    text-transform: capitalize;
+    margin: 2rem 0 0 2rem;
+    font-size: 25px;
 }
 
 ul {
@@ -44,7 +41,33 @@ ul {
 li {
     margin: 0 20px;
 }
-ul li a:visited {
+
+li a {
     color: #fff;
+    text-decoration: none;
+}
+li a:hover {
+    color: #add8e6;
+    transition: 0.5s;
+    
+}
+/* ul li a:visited {
+    color: #fff;
+} */
+
+
+h2,
+p {
+    text-align: center;
+}
+
+.education {
+    width: 40rem;
+    height: 40rem;
+    background-image: url("/books-1204029_640.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2rem;
 }
 
