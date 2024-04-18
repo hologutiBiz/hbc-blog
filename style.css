@@ -36,13 +36,12 @@ ul {
     width: 100%;
     list-style: none;
 }
-li {
+.nav-list {
     text-align: center;
     margin-right: 1em;
    
 }
-
-li a {
+.nav-list a {
     color: #fff;
     text-decoration: none;
     padding: 2px 10px; 
@@ -135,32 +134,82 @@ li a:hover {
 
 
 footer {
-    display: flex;    
+    position: relative;
+    display: flex;   
+    flex-direction: column; 
+    justify-content: space-evenly;
     background-color: #000000da;
-    padding: 20px 0;
-}
-ul.reference {
-    list-style: circle inside;
-    color: #ffc0cb;
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    gap: 1em;    
-}
-ul.reference li {
-    margin-left: 2em;
+    padding: 20px 0 14rem;
+    text-align: center;
 }
 
-address a {
+footer span {
     color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.reference-and-product-wrapper {
+    display: flex;
+}
+
+.reference-container {
+    position: absolute;
+    left: 2em;
+}
+.reference {
     display: block;
-    margin: 10px 0 0 10em;
-    font-size: 30px;
+} 
+.reference li {
+    text-align: justify;
+    margin: 10px 0;
+}
+.reference {
+    color: #ffc0cb;
+    text-decoration: underline;
+    border: none;
+}
+
+.products-and-services {
+    position: absolute;
+    right: 3em; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.products-and-services a {
+    display: block;
+    text-align: justify;
+
+}
+
+.social-media-handles {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+footer a {
+    color: #ffc0cb;
+}
+footer a:hover {
+    color: #fff;
+    background: none;
+    border: none;
+    transition: 0.5s;
+}
+footer .fa-brands {
+    font-size: 24px;
+    margin: 10px;
 }
 
 
 
                     /* media query */
+
         /* 320px */
       @media screen and (max-width: 600px) {
         body {
