@@ -1,0 +1,28 @@
+.gallery-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    gap: 5px;
+    animation: scrollGallery 15s linear infinite alternate-reverse; /* Change duration as needed */
+    /* animation-iteration-count: 2; */
+  }
+  
+  @keyframes scrollGallery {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
