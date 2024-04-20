@@ -28,6 +28,88 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+                @media screen and (max-width: 599px) {
+                        body {
+                            position: relative;
+                            width: 100%;
+                        }
+
+                        .brand {
+                            width: 300px; 
+                        }
+
+                        main {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            width: 300px;
+                        }
+
+                        .text {
+                            top: 0;
+                            left: 0;
+                            width: 320px !important;
+                            margin-bottom: 1000px;
+                        }
+                        .text h1 {
+                            width: 22ch;
+                        }
+                        .text p {
+                            width: 28ch;
+                            font-size: 22px;
+                            
+                        }
+
+                        .bosun-image {
+                            width: 250px;
+                        }
+
+
+                        /* job application */
+                        #jobApplication-section {
+                            position: relative;
+                            top: 20rem;
+                            right: 10%;
+                            display: flex;
+                            flex-direction: column;
+                            height: 30rem;
+                            width: 300px !important;
+                            /* margin:0; */
+                        }
+                        .jobApplication-section article a {
+                            display: flex;
+                            flex-direction: column;
+                            font-size: 22px;
+                        }
+                        .jobApplication-section article a img {
+                            width: 280px !important;
+                        }
+                        .jobApplication-section article div {
+                            width: 280px !important;
+                        }
+
+
+                        /* lotto section */
+                        #lotto-container {
+                            margin: 20rem 0 5rem 1rem !important;
+                        }
+                        #lotto-container h2 {
+                            text-align: center;
+                            width: 25ch !important;
+                        }
+                        #lotto-container article {
+                            border-bottom: 1px solid #0000ff25 !important;
+                        }
+                    }
+    </style>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -56,20 +138,43 @@
             <!-- <h1>Your Blog Post Title</h1> -->
         </header>
         <main style="position: relative;">
-            <section style="width: 500px; 
+            <section class="text" 
+                    style="position: absolute;
+                            right: 10%;
+                            width: 30%;
+                            padding: 0 10px;
+                            font-size: 1.1rem;
+                            border-right: 1px solid #00000038;
+                            border-radius: 5px;">
+                <h1>We give insightful info on the latest social good</h1>
+                <p><em>Watch for the next ...</em></p>
+                <ul style="display: flex;
+                           flex-direction: column;
+                           gap: 1.2rem; ">
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Banking Retail</a></li>
+                    <li><a href="">Health</a></li>
+                    <li><a href="./technology/t0000001">Technology</a></li>
+                </ul>
+                <p>... <em>insights. Don't be left out. Come back to our page for more </em></p>
+            </section>
+
+                            <!-- 3mmt application section-->
+            <section class="jobApplication-section" id="jobApplication-section"
+                    style="width: 500px; 
                             border: 1px solid #00000041; 
                             border-radius: 10px; 
                             box-shadow: 2px 3px 5px #00000031;
-                            margin: 3rem 0 2rem 5rem;
+                            margin: 7rem 0 2rem 5rem;
                             text-align: center;">
-                <article  style="margin: 10px;">
+                <article style="margin: 10px;">
                     <h1>3MTT Job Application</h1>
                     <a href="/technology/t0000001.html" 
                         style="display: flex;">
-                        <img src="https://i.postimg.cc/RCshqwRW/nitda-3mtt.jpg" 
+                        <img class="bosun-image" src="https://i.postimg.cc/RCshqwRW/nitda-3mtt.jpg" 
                             style="width: 300px; 
-                            height: 250px;
-                            border-radius: 5px;">
+                                    height: 250px;
+                                    border-radius: 5px;">
                         <div style="width: 30%">
                             <p style="font-size: 1.2em;"><strong>Lear about 3MTT job application</strong> -</p>
                             <p>Al/ML, FrontEnd Developer</p>
@@ -78,19 +183,18 @@
                 </article>
             </section>
 
+           
                         <!-- lotto section-->
 
-            <div style="margin: 3rem 0 2rem 3rem;">
+            <div id="lotto-container" style="margin: 3rem 0 2rem 3rem;">
                 <h2 style="width: 75%;
                             padding: 5px;
                             border-bottom: 1px solid #00000041;
-                            border-radius: 10px;">All-in-one Premier Lotto Material</h2>
-                <section class="lotto-link" 
-                    style=" display: flex;
+                            border-radius: 10px;">All-in-one Premier Lotto Webpage</h2>
+                <section class="lotto-link" id="lotto-link"
+                            style=" display: flex;
                             justify-content: center;
                             flex-wrap: wrap;
-                            /* max-width: 5rem;
-                            min-width: 300px;  */
                             border: 1px solid #00000041; 
                             border-radius: 10px; 
                             box-shadow: 2px 3px 5px #00000031;
@@ -140,7 +244,7 @@
                         <li><a href="">Education</a></li>
                         <li><a href="">Bank Retail</a></li>
                         <li><a href="">Health</a></li>
-                        <li><a href="./technology/t0000001">Technology</a></li>
+                        <li><a href="./technology/t0000001.html" target="">Technology</a></li>
                         <li><a href="https://vlb.hologutibusinesscentre.com" target="_blank">Lotto Board & Results</a></li>
                     </ul>
                 </div>
