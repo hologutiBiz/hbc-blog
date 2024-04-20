@@ -9,70 +9,19 @@
 
     <style>
         body {
-            width: 100%;
-            font-size: 1.1rem;
-            line-height: 1.5;
-            text-align: justify;
-        }
-
-        header {
             margin: 0;
             padding: 0;
-            width: inherit;
-        }
-        nav {
-            width: 100%;
-        }
-        ul {
-            width: 100%;
-            background-color: #0000ff;
-            list-style: none;
-            text-align: center;
-        }
-        .home {
-            color: #fff;
-            border-radius: 15px;
-            background-color: #0000ff;
-        } 
-        /* .image {
-            width: 100%;
-            background-image: url('https://i.postimg.cc/RCshqwRW/nitda-3mtt.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 600px;
-            padding-top: 10px;
-        } */
-
-        main {
-            margin: 1.5rem;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .current-opening {
-            margin-top: 5rem;
         }
 
         table {
-            border: 1px solid #000;
+            border: 1px solid #0000ff;
+            padding: 20px;
             text-align: center;
-        }
-        thead {
-            color: #fff;
-            background-color: #000;
-            text-transform: uppercase;
-        }
-        td {
-            border-top: 1px solid #000;
-            padding: 10px;
+            margin-bottom: 5rem;
         }
 
 
-
-        @media screen and (max-width: 699px) {
+        /* @media screen and (max-width: 699px) {
                     body {
                         width: 100%;
                         display: flex;
@@ -90,28 +39,32 @@
                     table {
                         margin: 0;
                     }
-            }
+            } */
 
             @media screen and (max-width: 359px) {
                     body {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
                         width: 100%;
-                        overflow-x: hidden;
                     }
 
-                    header {
+                    main {
+                        width: 100%;
+                    }
+
+                    main article p,
+                    .the-platform {
+                        font-size: 1.4em;
+                        width: 20ch;
                         margin: 0;
-                        padding: 0;
+                    }
+
+                    .current-opening {
+                        margin: 0;
                     }
                     
-                    main {
-                        margin: 10px;
-                        width: 25ch;
-                        font-size: 24px;
-                    }
+
+                  
+                    
+                   
 
                     table {
                         margin: 0;
@@ -123,11 +76,21 @@
     <header>
         <!-- <img src="/assets/bName.png" class="brand"> -->
         <nav>
-            <div style="width: 100%; font-size: 1.6rem; ">
+            <div style="width: 100%; font-size: 2.6rem;
+                        color: #0000ff;
+                        font-weight: bolder;
+                        margin: 15px 20px;">
                 <span class="name">Insights</span>: <span class="3mtt">3MTT JobBoard</span> 
             </div>
-            <ul>
-                <li><a href="/" class="home">Home</a></li> 
+            <ul style="list-style: none;
+                        width: 100%;
+                        background-color: #0000ff;
+                        padding: 10px 0;
+                        text-align: center;">
+                <li><a href="/" class="home" 
+                        style="color: #fff;
+                                font-size: 30px;
+                                text-decoration: none;">Home</a></li> 
                 <!-- <li class="nav-list"><a href="#">Education</a></li>
                 <li class="nav-list"><a href="#">Bank Retail</a></li>
                 <li class="nav-list"><a href="#">Health</a></li>
@@ -139,21 +102,24 @@
 
     <h1>The 3MTT Job Opportunity</h1>
 
-    <main>
+    <main style="margin: 0;
+                text-align: justify;
+                line-height: 1.5;
+                font-size: 1.2rem;">
         <div  style="height: 100%; height: 300px; background-image: url(https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
         <!-- <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg"> -->
-        <article>
+        <article style="margin: 2em;">
             <p>The <b>3 Million Technical Talent (3MTT)</b> program is a pivotal initiative under the <em>Federal Ministry of Communication, Innovation and Digital Economy &#40;FMCIDE&#41;</em>  in Nigeria, aimed at harnessing and developing the vast tech talent within the country, through comprehensive training, mentorship, and support, which will foster a culture of innovation that will contribute to the digital economy of Nigeria and putting Nigeria technical talents at the global level. In achieving its desired goal, the 3MTT had lunched <b>3mtt JobBoard platform</b>. This platform offers a unique opportunity to connect job applicants to hiring companies.</p>
             <!-- <p>Interested individuals are employed to explore the 3mtt JobBoard portal, create a profile  to benefit in the exciting opportunity.</p> -->
         </article>
       
-        <section>
-            <p>This platform is specifically designed to make the job search process easier and more efficient for both job seekers and hiring companies, and to also give individual who had participated in the 3MTT initail programe, an enviroment to deploy their skills. 
+        <section class="the-platform" style="margin: 2em;">
+            <p>The platform is specifically designed to make the job search process easier and more efficient for both job seekers and hiring companies, and to also give individual who had participated in the 3MTT initail programe, an enviroment to deploy their skills. 
                 Interested individuals are employed to explore the <i>3mtt JobBoard portal</i>, create a profile  to benefit in the exciting opportunity.
             </p>
         </section>
 
-        <section class="current-opening">
+        <section class="current-opening" style="margin: 2em;">
             <h1>Current Openings and How to Apply</h1>
             <p>Applicants are employed to visit the <a href="https://3mtt.seamlesshiring.com/" target="_blank">3mtt JobBoard portal</a>  and follow these simple steps:</p>
             <ol>
@@ -164,12 +130,17 @@
             </ol>
         </section>
 
-        <section>
+                                <!-- table section-->
+        <section style="display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;">
             <h4><strong>A quick overview of latest hiring companies and openings jobs</strong></h4>
             <p>The following companies have open position available for intern to fill following roles:</p>
 
             <table>
-                <thead>
+                <thead style="text-transform: uppercase;
+                            border: 1px solid #0000ff;">
                     <tr>
                         <th>company</th>
                         <th>open position</th>
@@ -177,25 +148,25 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td> Frieden Global</td>
-                        <td>AL/ML</td>
+                        <td style="border-bottom: 1px solid #0000ff; border-right: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199); padding: 10px 20px"> Frieden Global</td>
+                        <td style="border-bottom: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199);">AL/ML</td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td>NVIT</td>
-                        <td>System Engineer </td>
+                        <td style="border-bottom: 1px solid #0000ff; border-right: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.027);">NVIT</td>
+                        <td style="border-bottom: 1px  solid #0000ff;">System Engineer </td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td>Abitech Design Company</td>
-                        <td>FrontEnd Developer </td>
+                        <td style="border-bottom: 1px  solid #0000ff; border-right: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199); padding: 10px 20px">Abitech Design Company</td>
+                        <td style="border-bottom: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199); padding: 10px 20px">FrontEnd Developer </td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>                        
-                        <td>8MB Tech</td>
+                        <td style=" border-right: 1px solid #0000ff;">8MB Tech</td>
                         <td>Dev Ops</td>
                     </tr>
                 </tbody>
