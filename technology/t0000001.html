@@ -14,8 +14,8 @@
         }
 
         table {
-            border: 1px solid #0000ff;
-            padding: 20px;
+            border: 1px solid #000;
+            /* padding: 20px; */
             text-align: center;
             margin-bottom: 5rem;
         }
@@ -44,29 +44,92 @@
             @media screen and (max-width: 359px) {
                     body {
                         width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        font-weight: 400;
+                    }
+
+                    nav div {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    
+                    ul li {
+                        width: 100%;
+                        background-color: #0000ff;
                     }
 
                     main {
                         width: 100%;
+                        margin: 5px;                        
                     }
 
-                    main article p,
-                    .the-platform {
-                        font-size: 1.4em;
-                        width: 20ch;
-                        margin: 0;
+                    main img {
+                        width: 300px;
+                        border-radius: 5px;
+                        margin: 3px 0 3px 10px;
+                        font-size: unset;
                     }
+
+                    main article {
+                        margin: 0 !important;
+                    }
+                    main article p {
+                        width: 23ch;
+                        margin: 0 0 0 0.7em;
+                        font-size: 24px;
+                    }
+
+                    main .the-platform {
+                        position: relative;
+                        right: 1.3em;
+                        width: 310px;
+                    }
+
+                    main .the-platform p {
+                        width: 24ch;
+                        margin: 0;
+                        font-size: 24px;
+                    } 
 
                     .current-opening {
+                        position: relative;
+                        right: 1.7em;
+                        width: 310px;
                         margin: 0;
                     }
-                    
+                    .current-opening h1 {
+                        text-align: center;
+                    } 
+                    .current-opening p {
+                        width: 24ch;
+                        font-size: 25px;
+                    }
+                    .current-opening ol {
+                        position: static;
+                        left: -100px;
+                        width: 24ch;
+                        font-size: 23.5px;
+                    }
+                    .current-opening ol li {
+                        left: 100px;
+                        margin: 24px 1em 0 0;
+                    }
 
-                  
+                    .quick-overview {
+                        padding: 0;
+                        gap: 20px;
+                        font-size: 1.3em;
+                    }
+                    .quick-overview h4, 
+                    .quick-overview p {
+                        margin: 1em;;
+                    } 
                     
-                   
 
                     table {
+                        width: 200px;
                         margin: 0;
                     }
             }
@@ -84,7 +147,7 @@
             </div>
             <ul style="list-style: none;
                         width: 100%;
-                        background-color: #0000ff;
+                        /* background-color: #0000ff; */
                         padding: 10px 0;
                         text-align: center;">
                 <li><a href="/" class="home" 
@@ -100,17 +163,16 @@
         </nav> -->
     </header>
 
-    <h1>The 3MTT Job Opportunity</h1>
+    <h1 style="text-align: center;">The 3MTT Job Opportunity</h1>
 
     <main style="margin: 0;
                 text-align: justify;
                 line-height: 1.5;
                 font-size: 1.2rem;">
-        <div  style="height: 100%; height: 300px; background-image: url(https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-        <!-- <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg"> -->
+        <!-- <div  style="height: 500px; background-image: url(https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div> -->
+        <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg">
         <article style="margin: 2em;">
             <p>The <b>3 Million Technical Talent (3MTT)</b> program is a pivotal initiative under the <em>Federal Ministry of Communication, Innovation and Digital Economy &#40;FMCIDE&#41;</em>  in Nigeria, aimed at harnessing and developing the vast tech talent within the country, through comprehensive training, mentorship, and support, which will foster a culture of innovation that will contribute to the digital economy of Nigeria and putting Nigeria technical talents at the global level. In achieving its desired goal, the 3MTT had lunched <b>3mtt JobBoard platform</b>. This platform offers a unique opportunity to connect job applicants to hiring companies.</p>
-            <!-- <p>Interested individuals are employed to explore the 3mtt JobBoard portal, create a profile  to benefit in the exciting opportunity.</p> -->
         </article>
       
         <section class="the-platform" style="margin: 2em;">
@@ -131,7 +193,8 @@
         </section>
 
                                 <!-- table section-->
-        <section style="display: flex;
+        <section class="quick-overview" 
+                style="display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;">
@@ -140,33 +203,33 @@
 
             <table>
                 <thead style="text-transform: uppercase;
-                            border: 1px solid #0000ff;">
-                    <tr>
+                            border: 1px solid;">
+                    <tr style="background-color: #000; color: #fff;">
                         <th>company</th>
                         <th>open position</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="border-bottom: 1px solid #0000ff; border-right: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199); padding: 10px 20px"> Frieden Global</td>
-                        <td style="border-bottom: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199);">AL/ML</td>
+                        <td style="border-bottom: 1px solid #000; border-right: 1px solid #000; background-color: rgba(128, 128, 128, 0.075); padding: 10px 20px"> Frieden Global</td>
+                        <td style="border-bottom: 1px solid #000; background-color: rgba(128, 128, 128, 0.075);">AL/ML</td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td style="border-bottom: 1px solid #0000ff; border-right: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.027);">NVIT</td>
-                        <td style="border-bottom: 1px  solid #0000ff;">System Engineer </td>
+                        <td style="border-bottom: 1px solid #000; border-right: 1px solid #000; background-color: rgba(128, 128, 128, 0.027);">NVIT</td>
+                        <td style="border-bottom: 1px  solid #000;">System Engineer </td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td style="border-bottom: 1px  solid #0000ff; border-right: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199); padding: 10px 20px">Abitech Design Company</td>
-                        <td style="border-bottom: 1px solid #0000ff; background-color: rgba(128, 128, 128, 0.199); padding: 10px 20px">FrontEnd Developer </td>
+                        <td style="border-bottom: 1px  solid #000; border-right: 1px solid #000; background-color: rgba(128, 128, 128, 0.075); padding: 10px 20px">Abitech Design Company</td>
+                        <td style="border-bottom: 1px solid #000; background-color: rgba(128, 128, 128, 0.075); padding: 10px 20px">FrontEnd Developer </td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>                        
-                        <td style=" border-right: 1px solid #0000ff;">8MB Tech</td>
+                        <td style=" border-right: 1px solid #000;">8MB Tech</td>
                         <td>Dev Ops</td>
                     </tr>
                 </tbody>
