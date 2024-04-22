@@ -15,32 +15,110 @@
 
         table {
             border: 1px solid #000;
-            /* padding: 20px; */
             text-align: center;
             margin-bottom: 5rem;
         }
 
 
-        /* @media screen and (max-width: 699px) {
+                    /* Mobile Device view */
+
+        @media screen and (min-width: 359px) and (max-width: 600px) {
                     body {
                         width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                    }
+                        margin: 0;
+                        padding: 0;
+                        font-weight: 400;
+                    } 
+
+
+                    /* nav div {
+                        margin: 0;
+                        padding: 0;
+                    } */
+
                     
+                    ul li {
+                        width: 100%;
+                        background-color: #0000ff;
+                    } 
+
                     main {
-                        margin: 10px;
-                        width: 28ch; 
+                        width: 100%;
+                        /* margin: 5px;                         */
+                    } 
+
+                    main img {
+                        display: block;
+                        margin: auto;
+                        width: 340px;
+                        border-radius: 5px;
+                        /* margin: 3px 0 3px 8px;  */
+                    } 
+
+                    main article {
+                        width: 350px;
+                        margin: 0.8em !important;
+                    } 
+                    main article p {
+                        width: 27ch;
                         font-size: 24px;
-                    }
+                    } 
+
+                    main .the-platform {
+                        width: 100%;
+                        position: relative;
+                        right: 1.5em;
+                    } 
+
+                    main .the-platform p {
+                        width: 28ch;
+                        margin: 0;
+                        font-size: 24px;
+                    }  
+
+                    .current-opening {
+                        position: relative;
+                        right: 1.7em; 
+                        width: inherit; 
+                        background-color: aqua;
+
+                    } 
+                    .current-opening h1 {
+                        text-align: center;
+                        width: 24ch;
+                    } 
+                    .current-opening p {
+                        width: 27ch;
+                        font-size: 25px;
+                    } 
+                    .current-opening ol {
+                        width: 27ch;
+                        font-size: 24px;
+                    } 
+                    .current-opening ol li {
+                        left: 100px;
+                        margin: 24px 1em 0 0;
+                    } 
+
+                    .quick-overview {
+                        padding: 0;
+                        gap: 10px;
+                        font-size: 1.3em;
+                    } 
+                    .quick-overview h4, 
+                    .quick-overview p {
+                        margin: 0.5em;;
+                    }  
+                    
 
                     table {
+                        width: 350px;
                         margin: 0;
-                    }
-            } */
+                    } 
+            }
 
+
+                        /* 320px */
             @media screen and (max-width: 359px) {
                     body {
                         width: 100%;
@@ -66,9 +144,10 @@
                     }
 
                     main img {
+                        display: block;
                         width: 300px;
                         border-radius: 5px;
-                        margin: 3px 0 3px 10px;
+                        margin: auto;
                         font-size: unset;
                     }
 
@@ -129,7 +208,7 @@
                     
 
                     table {
-                        width: 200px;
+                        width: 310px; 
                         margin: 0;
                     }
             }
