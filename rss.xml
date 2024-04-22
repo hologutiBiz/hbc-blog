@@ -9,7 +9,8 @@
     <!-- Add items for each article -->
     <item>
       <title>The 3MTT Job Opportunity</title>
-      <description><![CDATA[
+      <description>
+        <![CDATA[
         <p>The <b>3 Million Technical Talent (3MTT)</b> program is a pivotal initiative under the <em>Federal Ministry of Communication, Innovation and Digital Economy &#40;FMCIDE&#41;</em> in Nigeria, aimed at harnessing and developing the vast tech talent within the country, through comprehensive training, mentorship, and support, which will foster a culture of innovation that will contribute to the digital economy of Nigeria and putting Nigeria technical talents at the global level. In achieving its desired goal, the 3MTT had lunched <b>3mtt JobBoard platform</b>. This platform offers a unique opportunity to connect job applicants to hiring companies.</p>
         <p>The platform is specifically designed to make the job search process easier and more efficient for both job seekers and hiring companies, and to also give individual who had participated in the 3MTT initail programe, an enviroment to deploy their skills. Interested individuals are employed to explore the <i>3mtt JobBoard portal</i>, create a profile to benefit in the exciting opportunity.</p>
         <p>Current Openings and How to Apply:</p>
@@ -19,8 +20,9 @@
           <li>Select the role that aligns with your qualifications.</li>
           <li>Submit your application along with your resume and any required documents.</li>
         </ol>
-      ]]></description>
         <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg">
+         ]]>
+        </description>
       <pubDate>Tue, 19 Apr 2022 12:00:00 GMT</pubDate>
     </item>
   </channel>
