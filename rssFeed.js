@@ -31,6 +31,7 @@ function generateRSSFeed() {
         <li>Select the role that aligns with your qualifications.</li>
         <li>Submit your application along with your resume and any required documents.</li>
       </ol>
+      <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg">
     `);
     addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/technology/t0000001');
     addElement(article, 'pubDate', new Date().toUTCString());
