@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animation.css">
+    <!-- <link rel="stylesheet" href="animation.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <style>
@@ -34,248 +34,33 @@
             scroll-behavior: smooth;
         }
 
+        
+        @keyframes trampoline {
+  0% {
+    transform: translateY(100%);
+    animation-timing-function: ease-out
+  }
 
-        .lotto-link {
-            padding: 10px 0;
-        }
-        .lotto-link article {
-            border: 1px solid #0000ff25;
-            margin: 5px;
-        }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: ease-in
+  }
+}
 
+@media (prefers-reduced-motion:no-preference) {
+  [word-animation] {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1ch
+  }
 
-        @media screen and (max-width: 600px) {
-                    body {
-                            position: relative;
-                            width: 100%;
-                        }
-
-                        .brand {
-                            width: 350px; 
-                        }
-
-                        main {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            width: 300px;
-                        }
-
-                        .text {
-                            top: 0;
-                            left: 10px;
-                            width: 350px !important;
-                            margin-bottom: 1000px;
-                        }
-                        .text h1 {
-                            width: 25ch;
-                        }
-                        .text p {
-                            width: 28ch;
-                            font-size: 22px;
-                            
-                        }
-
-                        /* .bosun-image {
-                            width: 300px !important;
-                        } */
-
-
-                        /* job application */
-                        #jobApplication-section {
-                            position: relative;
-                            top: 20rem;
-                            right: 0;
-                            display: flex;
-                            flex-direction: column;
-                            height: 30rem;
-                            width: 330px !important;
-                            /* margin:0; */
-                        }
-                        .jobApplication-section article a {
-                            display: flex;
-                            flex-direction: column;
-                            font-size: 22px;
-                        }
-                        .jobApplication-section article a img {
-                            width: 300px !important;
-                        }
-                        .jobApplication-section article div {
-                            width: 280px !important;
-                        }
-
-
-                        /* lotto section */
-                        #lotto-container {
-                            width: 340px; 
-                            margin: 20rem 0 5rem 4.5rem !important;
-                        }
-                        #lotto-container h2 {
-                            text-align: center;
-                            width: 25ch !important;
-                        }
-                        #lotto-container article {
-                            border-bottom: 1px solid #0000ff25 !important;
-                        }
-                    }
-
-                        /* 360px */
-                @media screen and (max-width: 369px) {
-                    body {
-                            position: relative;
-                            width: 100%;
-                        }
-
-                        .brand {
-                            width: 350px; 
-                        }
-
-                        main {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            width: 300px;
-                        }
-
-                        .text {
-                            top: 0;
-                            left: 0;
-                            width: 350px !important;
-                            margin-bottom: 1000px;
-                        }
-                        .text h1 {
-                            width: 25ch;
-                        }
-                        .text p {
-                            width: 28ch;
-                            font-size: 22px;
-                            
-                        }
-
-                        /* .bosun-image {
-                            width: 300px !important;
-                        } */
-
-
-                        /* job application */
-                        #jobApplication-section {
-                            position: relative;
-                            top: 20rem;
-                            right: 5%;
-                            display: flex;
-                            flex-direction: column;
-                            height: 30rem;
-                            width: 330px !important;
-                        }
-                        .jobApplication-section article a {
-                            display: flex;
-                            flex-direction: column;
-                            font-size: 22px;
-                        }
-                        .jobApplication-section article a img {
-                            width: 300px !important;
-                        }
-                        .jobApplication-section article div {
-                            width: 280px !important;
-                        }
-
-
-                        /* lotto section */
-                        #lotto-container {
-                            width: 330px; 
-                            margin: 20rem 0 5rem 3.5rem !important;
-                            padding: 10px;
-                        }
-                        #lotto-container h2 {
-                            text-align: center;
-                            width: 25ch !important;
-                        }
-                        #lotto-container article {
-                            border: 1px solid #0000ff25 !important;
-                            border-radius: 5px !important;
-                            margin-top: 10px !important;
-                        }
-                    }
-                
-
-                                /* 320px */
-                @media screen and (max-width: 359px) {
-                        body {
-                            position: relative;
-                            width: 100%;
-                        }
-
-                        .brand {
-                            width: 300px; 
-                        }
-
-                        main {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            width: 300px;
-                        }
-
-                        .text {
-                            top: 0;
-                            left: 0;
-                            width: 320px !important;
-                            margin-bottom: 1000px;
-                        }
-                        .text h1 {
-                            width: 22ch;
-                        }
-                        .text p {
-                            width: 28ch;
-                            font-size: 22px;
-                            
-                        }
-
-                        .bosun-image {
-                            width: 250px;
-                        }
-
-
-                        /* job application */
-                        #jobApplication-section {
-                            position: relative;
-                            top: 20rem;
-                            right: 10%;
-                            display: flex;
-                            flex-direction: column;
-                            height: 30rem;
-                            width: 300px !important;
-                            /* margin:0; */
-                        }
-                        .jobApplication-section article a {
-                            display: flex;
-                            flex-direction: column;
-                            font-size: 22px;
-                        }
-                        .jobApplication-section article a img {
-                            width: 280px !important;
-                        }
-                        .jobApplication-section article div {
-                            width: 280px !important;
-                        }
-
-
-                        /* lotto section */
-                        #lotto-container {
-                            width: 300px;
-                            margin: 20rem 0 5rem 1rem !important;
-                        }
-                        #lotto-container h2 {
-                            text-align: center;
-                            width: 25ch !important;
-                        }
-                        #lotto-container article {
-                            border-bottom: 1px solid #0000ff25 !important;
-                        }
-                    }
+  [word-animation=trampoline]>span {
+    display: inline-block;
+    transform: translateY(100%);
+    animation: trampoline 3s ease calc(var(--index) * 150 * 1ms) infinite alternate
+  }
+}
+        
     </style>
 </head>
 <body>
@@ -284,162 +69,14 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <body>
-        <header>
-            <img src="/assets/bName.png" class="brand">
-            <nav>
-                <div style="width: 100%;">
-                    <span class="name">Insights</span>
-                </div>
-                <input type="checkbox" class="toggle-menu">
-                <div class="hamburger"></div> 
-                <ul class="nav-bar">
-                    <li class="nav-list"><a href="#" aria-current="page">Home</a></li>
-                    <!-- <li class="nav-list"><a href="#">Education</a></li>
-                    <li class="nav-list"><a href="#">Bank Retail</a></li>
-                    <li class="nav-list"><a href="#">Health</a></li>
-                    <li class="nav-list"><a href="/technology/t0000001.html">Technology</a></li>
-                    <li class="nav-list"><a href="https://vlb.hologutibusinesscentre.com" target="_blank">Lottery</a></li> -->
-                </ul>
-            </nav>
-            <!-- <h1>Your Blog Post Title</h1> -->
-        </header>
-        <main style="position: relative;">
-            <section class="text" 
-                    style="position: absolute;
-                            right: 10%;
-                            width: 30%;
-                            padding: 0 10px;
-                            font-size: 1.1rem;
-                            border-right: 1px solid #00000038;
-                            border-radius: 5px;">
-                <h1>We give insightful info on the latest social good</h1>
-                <p><em>Watch for the next ...</em></p>
-                <ul style="display: flex;
-                           flex-direction: column;
-                           gap: 1.2rem; ">
-                    <li><a href="">Education</a></li>
-                    <li><a href="">Banking Retail</a></li>
-                    <li><a href="">Health</a></li>
-                    <li><a href="./technology/t0000001">Technology</a></li>
-                </ul>
-                <p>... <em>insights. Don't be left out. Come back to our page for more </em></p>
-            </section>
-
-                            <!-- 3mmt application section-->
-            <section class="jobApplication-section" id="jobApplication-section"
-                    style="width: 500px; 
-                            border: 1px solid #00000041; 
-                            border-radius: 10px; 
-                            box-shadow: 2px 3px 5px #00000031;
-                            margin: 7rem 0 2rem 5rem;
-                            text-align: center;
-                            padding: 20px 0;">
-                <article style="margin: 10px;">
-                    <h1>3MTT Job Application</h1>
-                    <a href="/technology/t0000001.html" 
-                        style="display: flex;">
-                        <img class="bosun-image" src="https://i.postimg.cc/RCshqwRW/nitda-3mtt.jpg" 
-                            style="width: 300px; 
-                                    height: 250px;
-                                    border-radius: 5px;
-                                    display: block;
-                                    margin: auto;">
-                        <div style="width: 30%">
-                            <p style="font-size: 1em;"><strong>Lear about 3MTT job application</strong> -</p>
-                            <p>Al/ML, FrontEnd Developer</p>
-                        </div>
-                    </a>
-                </article>
-            </section>
-
-           
-                        <!-- lotto section-->
-
-            <div id="lotto-container" style="margin: 3rem 0 2rem 3rem;">
-                <h2 style="width: 75%;
-                            padding: 5px;
-                            border-bottom: 1px solid #00000041;
-                            border-radius: 10px;">All-in-one Premier Lotto Webpage</h2>
-                <section class="lotto-link" id="lotto-link"
-                            style=" display: flex;
-                            justify-content: center;
-                            flex-wrap: wrap;
-                            border: 1px solid #00000041; 
-                            border-radius: 10px; 
-                            box-shadow: 2px 3px 5px #00000031;
-                            text-align: center;">
-                    <article class="lottoLink-article">
-                        <a href="https://vlb.hologutibusinesscentre.com/GAMES/dailyResult" target="_blank">
-                            <figure>
-                                <img src="https://i.postimg.cc/SRGRXgp3/Lotto-draw-machine2-1.jpg" alt="" 
-                                    width="200" 
-                                    height="200"
-                                    style="border-radius: 5px;">
-                                <figcaption>Today result</figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="lottoLink-article">
-                        <a href="https://vlb.hologutibusinesscentre.com/" target="_blank">
-                            <figure>
-                                <img src="https://i.postimg.cc/nrmMHndF/lotto-balls-52.jpg" alt="" 
-                                    width="200" 
-                                    height="200"
-                                    style="border-radius: 5px;">
-                                <figcaption>Baba Ijebu</figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="lottoLink-article">
-                        <a href="https://vlb.hologutibusinesscentre.com/classification" target="_blank">
-                            <figure>
-                                <img src="https://i.postimg.cc/90WBvNXQ/classification.png" alt="" 
-                                    width="200" 
-                                    height="200"
-                                    style="border-radius: 5px;">
-                                <figcaption>classification Chart</figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                </section>
-            </div>
-        </main>
-
-        <footer>
-            <div class="reference-and-product-wrapper">
-                <div class="reference-container">
-                    <span>topic reference</span>
-                    <ul class="reference">
-                        <li><a href="./interest/FG-large-and-MSME_loan.html">Interest</a></li>
-                        <li><a href="">Education</a></li>
-                        <li><a href="">Bank Retail</a></li>
-                        <li><a href="">Health</a></li>
-                        <li><a href="https://insights.hologutibusinesscentre.com/technology/threeTT" target="">Technology</a></li>
-                        <li><a href="https://vlb.hologutibusinesscentre.com" target="_blank">Lotto Board & Results</a></li>
-                    </ul>
-                </div>
-               
-                <div class="products-and-services">
-                    <span>buy</span>
-                    <a href="">WAEC Registration Pin</a>
-                    <a href="">WAEC Scratch Card</a>
-                    <a href="">NECO Token</a>
-                    <a href="">JAMB Registration Pin</a>
-                </div>
-            </div>
-
-            <div class="social-media-handles">
-                <address>
-                    <span>connect with us</span>
-                    <div>
-                        <a href="https://twitter.com/hologutiBcentre" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-                        <a href="https://www.facebook.com/hologutiBusines" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://m.me/109930914660224" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
-                        <a href="https://www.instagram.com/hologutibusines/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </address>
-            </div>
-        </footer>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <p split-by="word" word-animation="trampoline">
+            split a paragraph of content 🤘💀
+          </p>
+    </main>
+    
 </body>
 </html>
