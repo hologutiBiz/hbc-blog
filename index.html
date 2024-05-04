@@ -23,6 +23,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
     
 
     <style>
@@ -45,6 +50,8 @@
             border-radius: 10px; 
             height: 50px; 
             width: 150px;
+            padding: 0.5px;
+            background-color: #ffffff38;
         }
 
         nav {
@@ -73,8 +80,6 @@
             text-decoration: none;
             padding: 10px;
             font-size: 1.1rem;
-            /* font-weight: bold;  */
-
         }
         nav ul li a:hover,
         nav ul li a:visited:hover {
@@ -88,8 +93,9 @@
             color: #add8eb;
         }
 
-        h1 {
+        .welcome {
             text-align: center;
+            margin: 5rem 0;
         }
         
         /* main {
@@ -102,8 +108,12 @@
             background-color: #f5f5f5;
         }
         .delivering-insightful {
+            color: #fff;
             width: 50%;
             margin: 1em;
+            text-align: center;
+            background: radial-gradient(#add8eb, #000);
+            border-radius: 5px;
             font-size: 1.5em;
         }
 
@@ -142,11 +152,12 @@
             justify-content: center;
             align-items: center; 
             margin: 3rem;
-            padding: 20px 0;
-            border-radius: 10px;
+            padding: 10px 0;
             background-color: #f5f5f5; 
             border-top: 1px solid #0000002f; 
             border-bottom: 1px solid #0000002f; 
+            border-radius: 10px;
+
         }
 
         .tech-and-innovation article {
@@ -164,6 +175,21 @@
         .tech-and-innovation article a img {
             width: 400px;
             height: 200px;
+        }
+
+
+        footer {
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 5rem 0;
+            margin: 2rem 0 0;
+            background-color: #000000e7;
+            /* background: radial-gradient(#add8eb, #000); */
+        }
+        .fa-brands {
+            color: #fff;
+            background-color: #00ffff;
         }
 
        
@@ -238,14 +264,14 @@
         <header>
             <nav>
                 <div class="brand-wrapper">
-                    <img src="https://i.postimg.cc/R0k9XNZd/hbc-white-rectangle-logo-200-100.png" class="brand-logo" alt="logo">
+                    <img src="https://i.postimg.cc/gcHQJd7n/hbc-dark-rectangle-logo-200-100.png" class="brand-logo" alt="logo">
                     <!-- <h1 class="brand-name">Hologuti Business Centre - insights</h1> -->
-                    <span class="brand-name">Hologuti Business Centre - insights</span>
+                    <span class="brand-name">Hologuti Business Centre - Insights</span>
                 </div>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a>Education</a></li>
-                    <li><a>health</a></li>
+                    <li><a>Health</a></li>
                     <li><a>Social Interest</a></li>
                     <li><a href="#techAndInnovation">Tech & Innovation</a></li>
                     <li><a href="https://vlb.hologutibusinesscentre.com/" target="_blank">Lottery</a></li>
@@ -253,9 +279,12 @@
                 </ul>
             </nav>
         </header>
-    
-        <h1>Welcome to Hologuti Business Centre News & Media Website</h1>
-
+        
+        <div class="welcome">
+            <h1 >Welcome to Hologuti Business Centre News & Media Website</h1>
+            <!-- <h2>We bring you informative articles and helpful tips. Explore our website for more</h2> -->
+        </div>
+       
         <main>
             <section class="lastest">
                 <div class="delivering-insightful">
@@ -264,7 +293,7 @@
                     </p>
                 </div>
                 <article>
-                    <a href="">
+                    <a href="https://insights.hologutibusinesscentre.com/interest/EOI-extension">
                         <img src="https://i.postimg.cc/Prd0JWD6/federal-grant-loan-1.webp">
                         <div class="content-text">
                             <h4>Social Interest</h4>
@@ -272,7 +301,7 @@
                             <time datetime="2024-05-03"><small>May 3, 2024</small></time>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://insights.hologutibusinesscentre.com/interest/CrediCorp">
                         <img src="https://i.postimg.cc/mgRszqzz/Credi-Corp-removebg-preview.png">
                         <div class="content-text">
                             <h4>Social Interest</h4>
@@ -280,7 +309,7 @@
                             <time datetime="2024-04-25"><small>April 25, 2024</small></time>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://insights.hologutibusinesscentre.com/interest/FG-large-and-MSME_loan">
                         <img src="https://i.postimg.cc/Prd0JWD6/federal-grant-loan-1.webp">
                         <div class="content-text">
                             <h4>Social Interest</h4>
@@ -294,52 +323,34 @@
             <section class="tech-and-innovation" id="techAndInnovation">
                 <h1>Technology & Innovation</h1>
                 <article>
-                    <a href="">
+                    <a href="https://insights.hologutibusinesscentre.com/technology/threeTT">
                         <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg">
                         <div>
                             <h2>3MTT Job Opportunity</h2>
                             <h3>3MTT opens job portal for job seek and hiring company</h3>
+                            <time datetime="2024-04-19"><small>Tues 19, 2024</small></time>
                         </div>  
                     </a>
                     <!-- <img src=""> -->
                 </article>
             </section>
-            <!-- <section class="introduction">
-                <h1 split-by="letter" letter-animation="breath">Hologuti Business Centre - Insights</h1>
-                <img src="https://i.postimg.cc/LhdkC2Hq/hbc-white-rectangle-logo-400-200.png">
-                <p split-by="word" word-animation="trampoline" class="welcome">Welcome to our blog page </p>
-                <img src="https://i.postimg.cc/Tw4JbnFJ/hbc-dark-rectangle-logo-400-200.png">
-            </section>
-
-            <section class="message">
-                <p>Here is your one-stop destination for all things exciting and engaging!</p> 
-                <p>Our focus is on delivering insightful content that explores social good initiatives across various sectors, from education and bank retail to health, technology and other interest</p>
-                <p>Our exploration will encompass subjects such as:</p>
-            </section>
-
-            <section>
-                <div class="banking">
-                    <h2>Agency Banking</h2>
-                    <img src="https://i.postimg.cc/VsgXJJdV/banking-500.jpg" alt="banking">
-                    <p>We bring you the lastest happening in the agent banking (POS operator) section</p>
-                </div>
-            </section>
-             -->
-            
-       
         </main>
+
         <footer>
             <div>
-                <span></span>
+                <span>About</span>
                 <p></p>
             </div>
             <div>
-                <span></span>
-                <p></p>
+                <span>Organization</span>
+                <p>Contact Us</p>
+                <a href="mailto: insights@hologutibusinesscentre.com">E-mail Us</a>
             </div>
-            <div>
-                <span></span>
-                <p></p>
+            <div class="handles">
+                <span>Follow Us</span>
+                <a href="" target="_blank" aria-label="connect with us on facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" target="_blank" aria-label="connect with us on X (twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="" target="_blank" aria-label="connect with us on facebook-messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
             </div>
         </footer>
     
@@ -350,28 +361,28 @@
               "name": "Hologuti Business Centre",
               "publisher": {
                 "@type": "Organization",
-                "name": "Hologuti Business Centre Insight"
+                "name": "Hologuti Business Centre Insights"
               },
               "owns": [
                 {
                   "@type": "WebPage",
-                  "name": "Nigeria Consumer Credit Corporation",
-                  "url": "https://example.com/page1"
+                  "name": "3MTT Job Opportunity",
+                  "url": "https://insights.hologutibusinesscentre.com/technology/threeTT"
                 },
                 {
+                    "@type": "WebPage",
+                    "name": "The Federal Government Lunches Loan Application for MSME And Manufacturing Sectors",
+                    "url": "https://insights.hologutibusinesscentre.com/interest/FG-large-and-MSME_loan"
+                  }
+                {
                   "@type": "WebPage",
-                  "name": "Page Title 2",
+                  "name": "Nigeria lunches Credit facilitating platform",
                   "url": "https://insights.hologutibusinesscentre.com/interest/CrediCorp"
                 },
                 {
                     "@type": "WebPage",
                     "name": "New Deadline for Nigeria Diaspora Fund, Expression of Interest submission",
                     "url": "https://insights.hologutibusinesscentre.com/interest/EOI-extension"
-                  },
-                  {
-                    "@type": "WebPage",
-                    "name": "Nigeria Consumer Credit Corporation",
-                    "url": "https://example.com/page1"
                   }
               ]
             }
