@@ -33,51 +33,142 @@
         body {
             margin: 0;
             padding: 0;
-          
-          
+            box-sizing: border-box;  
         }  
-        
-        main {
-            margin: 2rem;
-            font-size: 1.3rem;
-            font-weight: 400;
 
-        } 
 
-        main p {
-            /* font-size: 24px; */
+        header {
+            display: flex;
+            background-color: #000000da;
+        }
+        .brand-wrapper img {
+            border-radius: 10px; 
+            height: 50px; 
+            width: 150px;
         }
 
-        .introduction {
-            /* display: block;
-            margin: 0 auto; */
+        nav {
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: 0 2em;
+            /* background-color: aqua; */
+        }
+        .brand-wrapper {
+            display: flex;
+            align-items: center;
+            margin: 0.5em;
+            gap: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1em;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1.1rem;
+            /* font-weight: bold;  */
+
+        }
+        nav ul li a:hover,
+        nav ul li a:visited:hover {
+            color: #00ffff;  
+            /* background-color: #fff; */
+            border-bottom: 1px solid #00ffff;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+        nav ul li a:visited {
+            color: #add8eb;
+        }
+
+        h1 {
             text-align: center;
-            font-size: 2em;
         }
-        .introduction img {
-            /* opacity: 0.1; */
-            height: 50px;
-            border: 1px solid #000;
-            transform:scaleX(200deg);
+        
+        /* main {
+          
+        }  */
+       
+        .lastest {
+            display: flex;
+            margin: 2rem;
+            background-color: #f5f5f5;
+        }
+        .delivering-insightful {
+            width: 50%;
+            margin: 1em;
+            font-size: 1.5em;
         }
 
-        .message {
-            margin-top: 5em;
+        .lastest article {
+            margin: 1em;
+            width: 50%;
+        }
+        .lastest article a {
+            display: flex;
+            text-decoration: none;
+            margin: 7px 10px 7px 0;
+            background-color: #fff;
+            border-bottom: 1px solid #00000027;
+            border-radius: 10px;
+            padding: 10px 0 10px 5px;
         }
 
-        .banking {
-            display: block;
-            width: 500px;
+        .lastest article a img {
+            width: 200px;
+            height: 120px;
+            padding: 10px 0;
+            background: #fff;
+            border-right: 1px solid #00000011;
+        }
+
+        .lastest .content-text > * {
+            margin: 1em;
+            line-height: 15px;
+        }
+
+      
+        /* tech and innovation */
+        .tech-and-innovation {
+            display: flex;
             flex-direction: column;
             justify-content: center;
-            text-align: center;
-            padding: 0 20px;
-            border: 1px solid #0000003f;
+            align-items: center; 
+            margin: 3rem;
+            padding: 20px 0;
             border-radius: 10px;
+            background-color: #f5f5f5; 
+            border-top: 1px solid #0000002f; 
+            border-bottom: 1px solid #0000002f; 
         }
+
+        .tech-and-innovation article {
+            padding: 5px;
+            background-color: #fff;
+            border-radius: inherit;
+        }
+        .tech-and-innovation article a {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            text-align: center; 
+            text-decoration: none;
+        }
+        .tech-and-innovation article a img {
+            width: 400px;
+            height: 200px;
+        }
+
        
-        
-        @keyframes trampoline {
+       
+        /* @keyframes trampoline {
   0% {
     transform: translateY(100%);
     animation-timing-function: ease-out
@@ -134,7 +225,7 @@
   [letter-animation=breath] {
     --glow-color: #ffc0cb;
   }
-}
+} */
         
     </style>
 </head>
@@ -143,9 +234,77 @@
      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKL7P68S"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
+
+        <header>
+            <nav>
+                <div class="brand-wrapper">
+                    <img src="https://i.postimg.cc/R0k9XNZd/hbc-white-rectangle-logo-200-100.png" class="brand-logo" alt="logo">
+                    <!-- <h1 class="brand-name">Hologuti Business Centre - insights</h1> -->
+                    <span class="brand-name">Hologuti Business Centre - insights</span>
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a>Education</a></li>
+                    <li><a>health</a></li>
+                    <li><a>Social Interest</a></li>
+                    <li><a href="#techAndInnovation">Tech & Innovation</a></li>
+                    <li><a href="https://vlb.hologutibusinesscentre.com/" target="_blank">Lottery</a></li>
+
+                </ul>
+            </nav>
+        </header>
     
+        <h1>Welcome to Hologuti Business Centre News & Media Website</h1>
+
         <main>
-            <section class="introduction">
+            <section class="lastest">
+                <div class="delivering-insightful">
+                    <p>Delivering insightful content that explores social good initiatives. 
+                        Explore our website for informative articles and helpful tips.
+                    </p>
+                </div>
+                <article>
+                    <a href="">
+                        <img src="https://i.postimg.cc/Prd0JWD6/federal-grant-loan-1.webp">
+                        <div class="content-text">
+                            <h4>Social Interest</h4>
+                            <h5><abbr title="Federal Ministry of Industry, Trade, and Investment">FMITI</abbr> announces New Deadline for Nigeria Diaspora Fund Expression of Interest</h5>
+                            <time datetime="2024-05-03"><small>May 3, 2024</small></time>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img src="https://i.postimg.cc/mgRszqzz/Credi-Corp-removebg-preview.png">
+                        <div class="content-text">
+                            <h4>Social Interest</h4>
+                            <h5>Nigeria lunches Credit facilitating platform, <abbr title="Consumer Credit Corporation">(CrediCorp)</abbr></h5>
+                            <time datetime="2024-04-25"><small>April 25, 2024</small></time>
+                        </div>
+                    </a>
+                    <a href="">
+                        <img src="https://i.postimg.cc/Prd0JWD6/federal-grant-loan-1.webp">
+                        <div class="content-text">
+                            <h4>Social Interest</h4>
+                            <h5>The Federal Government Lunches Loan Application for MSME And Manufacturing</h5>
+                            <time datetime="2024-04-23"><small>April 23, 2024</small></time>
+                        </div>
+                    </a>
+                </article>
+            </section>
+
+            <section class="tech-and-innovation" id="techAndInnovation">
+                <h1>Technology & Innovation</h1>
+                <article>
+                    <a href="">
+                        <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg">
+                        <div>
+                            <h2>3MTT Job Opportunity</h2>
+                            <h3>3MTT opens job portal for job seek and hiring company</h3>
+                        </div>  
+                    </a>
+                    <!-- <img src=""> -->
+                </article>
+            </section>
+            <!-- <section class="introduction">
                 <h1 split-by="letter" letter-animation="breath">Hologuti Business Centre - Insights</h1>
                 <img src="https://i.postimg.cc/LhdkC2Hq/hbc-white-rectangle-logo-400-200.png">
                 <p split-by="word" word-animation="trampoline" class="welcome">Welcome to our blog page </p>
@@ -165,42 +324,25 @@
                     <p>We bring you the lastest happening in the agent banking (POS operator) section</p>
                 </div>
             </section>
-            
+             -->
             
        
         </main>
-        <!-- <script>
-            
-
-
-            const span = (text, index) => {
-  const node = document.createElement('span')
-
-  node.textContent = text
-  node.style.setProperty('--index', index)
-  
-  return node
-}
-
-const byLetter = text =>
-  [...text].map(span)
-
-const {matches:motionOK} = window.matchMedia(
-  '(prefers-reduced-motion: no-preference)'
-)
-
-if (motionOK) {
-  const splitTargets = document.querySelectorAll('[split-by]')
-
-  splitTargets.forEach(node => {
-    let nodes = byLetter(node.innerText)
-
-    if (nodes)
-      node.firstChild.replaceWith(...nodes)
-  })
-}
-        
-        </script> -->
+        <footer>
+            <div>
+                <span></span>
+                <p></p>
+            </div>
+            <div>
+                <span></span>
+                <p></p>
+            </div>
+            <div>
+                <span></span>
+                <p></p>
+            </div>
+        </footer>
+    
         <script type="application/ld+json">
             {
               "@context": "http://schema.org",
@@ -225,6 +367,11 @@ if (motionOK) {
                     "@type": "WebPage",
                     "name": "New Deadline for Nigeria Diaspora Fund, Expression of Interest submission",
                     "url": "https://insights.hologutibusinesscentre.com/interest/EOI-extension"
+                  },
+                  {
+                    "@type": "WebPage",
+                    "name": "Nigeria Consumer Credit Corporation",
+                    "url": "https://example.com/page1"
                   }
               ]
             }
