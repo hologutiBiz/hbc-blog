@@ -120,13 +120,13 @@
             display: flex;
             margin: 2rem;
             background-color: #f5f5f5;
+            background: radial-gradient(#add8eb, #000);
         }
         .delivering-insightful {
             color: #fff;
             width: 50%;
             margin: 1em;
             text-align: center;
-            background: radial-gradient(#add8eb, #000);
             border-radius: 5px;
             font-size: 1.5em;
         }
@@ -198,7 +198,8 @@
         }
 
                 /* Mobile Device */
-            @media screen and (max-width: 700px) {
+
+            @media screen and (max-width: 900px) {
                 body {
                     width: 100%;
                 }
@@ -208,18 +209,99 @@
                     padding: 40px 0 0;
                     background-color: transparent;
                 }
-
                 nav {
                     flex-direction: column;
                     padding: 40px 0;
                     margin: 2rem 0 0;
                     background-color: #000;
                 } 
+
                 .brand-wrapper {
                     flex-direction: column;
                     justify-content: flex-start;
                     margin: 0;
                 }
+                .brand-name {
+                    margin: 0.2em;
+                    font-size: 1.4em; 
+                    font-weight: bold;
+                }
+                .brand-logo {
+                    position: absolute;
+                    top: 1rem;
+                    left: 25%;
+                }
+                
+                nav ul {
+                    display: none;
+                }
+
+
+                .welcome {
+                    margin: 1rem;
+                }
+
+
+                main {
+                    margin: 0.3em;
+                    background-color: #f5f5f5; 
+                }
+
+                .lastest {
+                    /* width: inherit; */
+                    margin: 0.3em;
+                    flex-direction: column;
+                }
+                .delivering-insightful {
+                    width: 100%;
+                    margin: 0;
+                }
+                .lastest article {
+                    display: block;
+                    margin: 0 auto;
+                    width: 96%;
+                }
+                .lastest article a {
+                    display: block;
+                    margin: 10px auto;
+                }
+                .lastest article a img {
+                    display: block;
+                    margin: 0 auto;
+                    width: 90%;
+                    border-top: 1px solid #0000005f;
+                    border-bottom: 1px solid #0000005f;
+                }
+                .lastest .content-text > * {
+                    font-size: 1.5rem;
+                    line-height: 1.2;
+                }  
+            }
+
+
+            @media screen and (max-width: 359px) {
+                body {
+                    width: 100%;
+                }
+                
+
+                /* header {
+                    position: relative;
+                    padding: 40px 0 0;
+                    background-color: transparent;
+                } */
+/* 
+                nav {
+                    flex-direction: column;
+                    padding: 40px 0;
+                    margin: 2rem 0 0;
+                    background-color: #000;
+                }  */
+                /* .brand-wrapper {
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin: 0;
+                } */
                 .brand-name {
                     margin: 0.2em;
                     font-size: 20px; 
@@ -242,13 +324,13 @@
 
 
                 main {
-                    margin: 0.5em;
+                    margin: 0.3em;
                     background-color: #f5f5f5; 
                 }
 
                 .lastest {
-                    width: inherit;
-                    margin: 0.6em;
+                    /* width: inherit; */
+                    margin: 0.3em;
                     flex-direction: column;
                 }
                 .delivering-insightful,
@@ -302,6 +384,7 @@
             <h1 >Welcome to Hologuti Business Centre News & Media Website</h1>
             <!-- <h2>We bring you informative articles and helpful tips. Explore our website for more</h2> -->
         </div>
+        <h1 style="text-align: center; background-color: #000; color: #fff;">lastest</h1>
        
         <main>
             <!-- lastest-->
@@ -424,7 +507,7 @@
                         <img src="https://i.postimg.cc/vB4c7zb2/3mtt-400x400.jpg">
                         <div>
                             <h2>3MTT Job Opportunity</h2>
-                            <h3>3MTT opens job portal for job seek and hiring company</h3>
+                            <h3>3MTT opens job portal for job seeker and hiring company</h3>
                             <time datetime="2024-04-19"><small>Tues 19, 2024</small></time>
                         </div>  
                     </a>

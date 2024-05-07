@@ -46,7 +46,7 @@
 
 
         /* mobile view */
-    @media screen  and (max-width: 700px) {
+    @media screen  and (max-width: 900px) {
         body {
             width: 100%;
         }
@@ -66,11 +66,14 @@
         .s-article-wrapper article img {
             padding: 1px;
         }
-        .s-article-wrapper article a h3,
+        .s-article-wrapper article a h3 {
+            width: 90%;
+            margin: 1em;
+            font-size: 1.2em;
+        }
         .s-article-wrapper article a time,
         .s-article-wrapper article a p {
-            width: 98%;
-            margin: 1em 0;
-            font-size: 1.4rem;
+            width: 95%;
+            margin: 1em 0.7em;
         }
     }
