@@ -13,6 +13,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>hologuti Business Centre - Insights</title>
         <meta name="description" content="info about education, bank retail, health, technology and update on our products">
+
+        <meta property="og:url" content="https://insights.hologutibusinesscentre.com/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Home Page">
+        <meta property="og:description" content="info about education, bank retail, health, technology and update on our products">
+        <meta property="og:image" content="https://i.postimg.cc/Tw4JbnFJ/hbc-dark-rectangle-logo-400-200.png">
+
+        <!-- twitter-->
+        <meta name="twitter:card" content="">
+        <meta name="twitter:site" content="https://twitter.com/insights_HBC">
+        <meta name="twitter:title" content="Home Page">
+        <meta name="twitter:description" content="info about education, bank retail, health, technology and update on our products">
+        <meta name="twitter:image" content="https://i.postimg.cc/Tw4JbnFJ/hbc-dark-rectangle-logo-400-200.png">
+    
     
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -27,8 +41,6 @@
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-
-    
 
     <style>
         html {
@@ -84,7 +96,6 @@
         nav ul li a:hover,
         nav ul li a:visited:hover {
             color: #00ffff;  
-            /* background-color: #fff; */
             border-bottom: 1px solid #00ffff;
             border-radius: 10px;
             transition: 0.4s;
@@ -145,6 +156,43 @@
         }
 
       
+
+        /*social interest*/
+        .social-interest {
+            margin: 2rem;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+        .s-article-wrapper {
+            display: flex;
+            /* background-color: #00ffff; */
+        }
+        .s-article-wrapper article {
+            flex-basis: 33.33%;
+            margin: 1em;
+
+        }
+        .s-article-wrapper article a {
+            text-decoration: none;
+            text-align: justify;
+        }
+        .s-article-wrapper article img {
+            /* background-color: rgb(31, 30, 29); */
+            padding: 5px;
+        }
+        .s-article-wrapper article a h3 {
+            width: 300px;
+        }
+        .s-article-wrapper article a time {
+            color: #ff0000;
+        }
+        .s-article-wrapper article a p {
+            width: 300px;
+            font-size: 14px;
+        }
+       
+
+
         /* tech and innovation */
         .tech-and-innovation {
             display: flex;
@@ -191,68 +239,7 @@
             color: #fff;
             background-color: #00ffff;
         }
-
-       
-       
-        /* @keyframes trampoline {
-  0% {
-    transform: translateY(100%);
-    animation-timing-function: ease-out
-  }
-
-  50% {
-    transform: translateY(0);
-    animation-timing-function: ease-in
-  }
-}
-
-@media (prefers-reduced-motion:no-preference) {
-  [word-animation] {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 1ch
-  }
-
-  [word-animation=trampoline]>span {
-    display: inline-block;
-    transform: translateY(100%);
-    animation: trampoline 3s ease calc(var(--index) * 150 * 1ms) infinite alternate
-  }
-}
-        
-@keyframes breath {
-  from {
-    animation-timing-function: ease-out;
-  }
-
-  to {
-    transform: scale(1.25) translateY(-5px) perspective(1px);
-    text-shadow: 0 0 40px var(--glow-color);
-    animation-timing-function: ease-in-out;
-  }
-}
-
-@media (prefers-reduced-motion:no-preference) {
-  [letter-animation] > span {
-    display: inline-block;
-    white-space: break-spaces;
-  }
-
-  [letter-animation=breath] {
-    --glow-color: white;
-  }
-
-  [letter-animation=breath]>span {
-    animation: breath 1.2s ease calc(var(--index) * 100 * 1ms) infinite alternate;
-  }
-}
-
-@media (prefers-reduced-motion:no-preference) and (prefers-color-scheme: light) {
-  [letter-animation=breath] {
-    --glow-color: #ffc0cb;
-  }
-} */
-        
+  
     </style>
 </head>
 <body>
@@ -272,7 +259,7 @@
                     <li><a href="/">Home</a></li>
                     <li><a>Education</a></li>
                     <li><a>Health</a></li>
-                    <li><a>Social Interest</a></li>
+                    <li><a href="#socialInterest">Social Interest</a></li>
                     <li><a href="#techAndInnovation">Tech & Innovation</a></li>
                     <li><a href="https://vlb.hologutibusinesscentre.com/" target="_blank">Lottery</a></li>
 
@@ -286,6 +273,7 @@
         </div>
        
         <main>
+            <!-- lastest-->
             <section class="lastest">
                 <div class="delivering-insightful">
                     <p>Delivering insightful content that explores social good initiatives. 
@@ -319,6 +307,81 @@
                     </a>
                 </article>
             </section>
+
+            <!-- previous, Education-->
+            <section class="education" id="education">
+                <h1></h1>
+                <article>
+                    <a>
+                        <img>
+                        <div>
+                            <h2></h2>
+                            <h3></h3>
+                        </div>
+                    </a>
+                </article>
+            </section>
+
+            <section class="" id="">
+                <h1></h1>
+                <article>
+                    <a>
+                        <img>
+                        <div>
+                            <h2></h2>
+                            <h3></h3>
+                        </div>
+                    </a>
+                </article>
+            </section>
+
+                    <!-- previous, Social interest-->
+            <section class="social-interest" id="socialInterest">
+                <h1>Social interest</h1>
+                <div class="s-article-wrapper">
+                <article class="">
+                    <a href="https://insights.hologutibusinesscentre.com/interest/FG-large-and-MSME_loan">
+                        <img src="https://i.postimg.cc/9FvNskSt/federal-grant-loan-300-132.jpg">
+                        <div>
+                            <h3>The Federal Government Lunches Loan Application</h3>
+                            <time datetime="2024-04-23"><small>April 23, 2024</small></time>
+                            <p>
+                                The Federal Government of Nigeria is set to disburse funds to ...
+                            </p>
+                        </div>
+                    </a>
+                    <!-- <a>
+                        <div>
+                            <h2></h2>
+                            <h3></h3>
+                        </div>
+                    </a> -->
+                </article>
+                <article>
+                    <a href="https://insights.hologutibusinesscentre.com/interest/CrediCorp">
+                        <img src="https://i.postimg.cc/qRtqFgW7/Credi-Corp-300-107.jpg">
+                        <div>
+                            <h3>Nigeria Consumer Credit Corporation (CrediCorp)</h3>
+                            <time datetime="2024-04-25"><small>April 23, 2024</small></time>
+                            <p>Nigeria lunches Credit facilitating platform, Nigeria Consumer Credit Corporation (CrediCorp). 
+                                The company is owned by the Federal Government of Nigeria with the primary goal of increasing...
+                            </p>
+
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a>
+                        <img>
+                        <div>
+                            <h2></h2>
+                            <h3></h3>
+                        </div>
+                    </a>
+                </article>
+                </div>
+            </section>
+
 
             <section class="tech-and-innovation" id="techAndInnovation">
                 <h1>Technology & Innovation</h1>
@@ -383,6 +446,11 @@
                     "@type": "WebPage",
                     "name": "New Deadline for Nigeria Diaspora Fund, Expression of Interest submission",
                     "url": "https://insights.hologutibusinesscentre.com/interest/EOI-extension"
+                  },
+                  {
+                    "@type": "WebPage",
+                    "name": "JAMB clarifies to candidates the only way to check the 2024 UTME results",
+                    "url": "https://insights.hologutibusinesscentre.com/education/jamb-2024-result"
                   }
               ]
             }
