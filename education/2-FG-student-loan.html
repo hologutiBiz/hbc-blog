@@ -125,13 +125,27 @@
         .fa-brands:hover {
             color: #000; 
             background-color: #fff;
-            /* border-radius: 50%; */
             transition: 0.4s;
         }
 
             @media screen and (max-width: 700px) {
                     body {
                         width: 100%;
+                    }
+
+                    header {
+                        position: relative;
+                    }
+                    .name-wrapper {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    header .home {
+                        color: #000;
+                        position: absolute;
+                        top: 10px;
+                        left: 40%;
+                    
                     }
 
                     main {
@@ -143,19 +157,19 @@
 
                     p {
                         width: 98%;
-                        font-size: 1.3em;
+                        font-size: 1.1em;
                     }
                 }
             @media screen and (max-width: 359px) {
                     body {
                         width: 100%;
                     }
+                  
                     main {
                         margin: 1rem;
                     }
                     main img {
                         width: 280px;
-                        /* margin: 0; */
                     }
                 }
     </style>
