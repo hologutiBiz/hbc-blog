@@ -27,7 +27,7 @@
       <pubDate>Tue, 19 Apr 2022 12:00:00 GMT</pubDate>
     </item>
 
-                  <!-- second article-->
+                  <!-- Article 2-->
     <item>
       <title>Federal Government MSME and Manufacturing Businesses Loan</title>
       <description>
@@ -96,7 +96,7 @@
       <PubDate>Tue, 23 Apr 2024 18:00:00 GTM</PubDate>
     </item>
 
-                  <!-- thirday article-->
+                  <!-- Article 3-->
     <item>
       <title>Nigeria lunches Credit facilitating platform</tittle>
       <description>
@@ -129,7 +129,7 @@
       <pubDate>Thurs, 25 Apr 2024</pubDate>
     </item>
 
-                  <!-- fourth article-->
+                  <!-- Article 4-->
     <item>
       <title>New Deadline for Nigeria Diaspora Fund, Expression of Interest submission</tittle>
       <description>
@@ -160,7 +160,7 @@
       <pubDate>fri, 3 May 2024</pubDate>
     </item>
 
-                  <!-- fifth article-->
+                <!-- Article 5-->
      <item>
       <title>How to Check JAMB 2024 Result</tittle>
       <description>
@@ -199,6 +199,48 @@
       </description>
       <link>https://insights.hologutibusinesscentre.com/education/jamb-2024-result</link>
       <pubDate>Mon, 6 May 2024</pubDate>
+    </item>
+
+              <!-- Article 6-->
+    <item>
+      <title>Nigeria's Student Loan Scheme</tittle>
+      <description>
+        <![CDATA[
+           <main>
+              <div class="intro">
+                  <img src="https://i.postimg.cc/tTkzk47t/nelf-logo.jpg" alt="nelf logo">
+                  <h1>Nigeria's Student Loan Application Portal</h1>
+              </div>
+              <hr>
+              <article>
+                  <p>
+                      In a significant move to bolster higher education and alleviate the financial burden on students, 
+                      the Federal Government of Nigeria is set to launch the long-awaited <b>Student Loan Scheme</b>. 
+                      After a period of anticipation and meticulous planning, the government is set to officially open the <em>student loan application portal</em> which is said to commence on <time datetime="2024-05-24"><b>May 24th, 2024</b></time>.
+                  </p>
+              
+                  <p>
+                      This groundbreaking initiative aims to provide a lifeline to students across the nation, 
+                      ensuring that financial constraints do not hinder the pursuit of academic excellence. 
+                      The scheme is designed to be inclusive, catering to a wide range of students who aspire to further their education but lack the necessary resources.
+                  </p>
+              
+                  <p>
+                      As the launch date approaches, students are encouraged to prepare and to take advantage of this opportunity. 
+                      The scheme is not just a financial arrangement; it is a beacon of hope, symbolizing the government's resolve to empower the youth through education.
+                  </p>
+              
+                  <p>
+                      The Federal Government of Nigeria invites all eligible students to mark their calendars for <time datetime="2024-05-24"><b>May 24th, 2024</b></time>, 
+                      and join in ushering in a new era of accessible education financing by visiting <a href="https://nelf.gov.ng/" target="_blank" class="nelf">nelf.gov.ng</a>. 
+                      Stay tuned for more updates as we approach the launch of this transformative program.
+                  </p>
+              </article>
+          </main>
+        ]]>
+      </description>
+      <link>https://insights.hologutibusinesscentre.com/education/2-FG-student-loan</link>
+      <pubDate>Fri, 17 May 2024</pubDate>
     </item>
   </channel>
 </rss>
