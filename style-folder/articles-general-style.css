@@ -1,0 +1,33 @@
+
+
+header .hbc-i-container {
+    display: flex;
+    justify-content: space-between;
+}
+.hbc-i-container .hbc-i {
+    height: 50px;
+}
+
+
+
+
+
+footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px; 
+}
+.fa-brands {
+    color: #fff;
+    padding: 10px 7px;
+}
+.fa-brands:hover {
+    color: #ffc0cb; 
+    transition: 0.4s;
+}
