@@ -196,43 +196,72 @@ function generateRSSFeed() {
     // article 6 //
     addElement(article, 'title', "Nigeria's Student Loan Scheme");
     addElement(article, 'description', ` 
-          <main>
+        <main>
           <div class="intro">
-              <img src="https://i.postimg.cc/tTkzk47t/nelf-logo.jpg" alt="nelf logo">
-              <h1>Nigeria's Student Loan Application Portal</h1>
+            <img src="https://i.postimg.cc/tTkzk47t/nelf-logo.jpg" alt="nelf logo">
+            <h1>Nigeria's Student Loan Application Portal</h1>
           </div>
           <hr>
           <article>
-              <p>
-                  In a significant move to bolster higher education and alleviate the financial burden on students, 
-                  the Federal Government of Nigeria is set to launch the long-awaited <b>Student Loan Scheme</b>. 
-                  After a period of anticipation and meticulous planning, the government is set to officially open the <em>student loan application portal</em> which is said to commence on <time datetime="2024-05-24"><b>May 24th, 2024</b></time>.
-              </p>
-          
-              <p>
-                  This groundbreaking initiative aims to provide a lifeline to students across the nation, 
-                  ensuring that financial constraints do not hinder the pursuit of academic excellence. 
-                  The scheme is designed to be inclusive, catering to a wide range of students who aspire to further their education but lack the necessary resources.
-              </p>
-          
-              <p>
-                  As the launch date approaches, students are encouraged to prepare and to take advantage of this opportunity. 
-                  The scheme is not just a financial arrangement; it is a beacon of hope, symbolizing the government's resolve to empower the youth through education.
-              </p>
-          
-              <p>
-                  The Federal Government of Nigeria invites all eligible students to mark their calendars for <time datetime="2024-05-24"><b>May 24th, 2024</b></time>, 
-                  and join in ushering in a new era of accessible education financing by visiting <a href="https://nelf.gov.ng/" target="_blank" class="nelf">nelf.gov.ng</a>. 
-                  Stay tuned for more updates as we approach the launch of this transformative program.
-              </p>
+            <p>In a significant move to bolster higher education and alleviate the financial burden on students, the Federal Government of Nigeria is set to launch the long-awaited <b>Student Loan Scheme</b>. After a period of anticipation and meticulous planning, the government is set to officially open the <em>student loan application portal</em> which is said to commence on <time datetime="2024-05-24"><b>May 24th, 2024</b></time>.</p>
+            <p>This groundbreaking initiative aims to provide a lifeline to students across the nation, ensuring that financial constraints do not hinder the pursuit of academic excellence. The scheme is designed to be inclusive, catering to a wide range of students who aspire to further their education but lack the necessary resources.</p>
+            <p>As the launch date approaches, students are encouraged to prepare and to take advantage of this opportunity. The scheme is not just a financial arrangement; it is a beacon of hope, symbolizing the government's resolve to empower the youth through education.</p>
+            <p>The Federal Government of Nigeria invites all eligible students to mark their calendars for <time datetime="2024-05-24"><b>May 24th, 2024</b></time>, and join in ushering in a new era of accessible education financing by visiting <a href="https://nelf.gov.ng/" target="_blank" class="nelf">nelf.gov.ng</a>. Stay tuned for more updates as we approach the launch of this transformative program.</p>
           </article>
-      </main>
+        </main>
     `);
     addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/education/2-FG-student-loan');
     addElement(article, 'pubDate', new Date().toUTCString());
   
 
+        // article 7 //
+    addElement(article, 'title', 'NECO Important Notice');
+    addElement(article, 'description', ` 
+      <main>
+        <div class="headline">
+          <img src="https://i.postimg.cc/NFbc4hX4/neco-logo-372.jpg" alt="NECO logo">
+          <h1>National Examinations Council (NECO) Issues Important Clarification</h1>
+        </div>
+        <article>
+          <p><b>The National Examinations Council (NECO)</b> has issued an important clarification regarding the <i>2024 Senior School Certificate Examination (SSCE) Internal Registration</i> process. Contrary to rumours circulating on social media, NECO confirms that there has been <em>no extension to the registration deadline</em>.</p>
+          <p>The official registration period commenced on <time datetime="2023-12-18">Monday, December 18, 2023</time>, and is set to conclude on <time datetime="2024-06-03">Monday, June 3, 2024</time>. Following this, a late registration window is available from Tuesday, June 4, 2024, to Monday, June 10, 2024, which will include a late registration fee. </p>
+          <p>NECO urges all involved parties to ignore any misinformation suggesting an extension of the registration deadline to Monday, June 20, 2024. The council emphasizes the importance of adhering to the announced dates to ensure a smooth and orderly examination process.</p>
+          <p>The 2024 SSCE Internal is scheduled to start on <time datetime="2024-06-19">June 19, 2024</time>, and will run until <time datetime="2024-07-26"> July 26, 2024</time>. During this period, candidates will have the opportunity to showcase their knowledge across an extensive array of 76 subjects. For the latest updates and official announcements, always refer to NECO's official channels.</p>
+        </article>
+      </main>
+    `);
+    addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/education/e3-neco-important-notice');
+    addElement(article, 'pubDate', new Date().toUTCString());
+
+
+            // article 8 //
+    addElement(article, 'title', 'Rural Area Programme on Investment and Development');
+    addElement(article, 'description', `
+      <main>
+        <div class="headline">
+          <img src="https://i.postimg.cc/2S4zYWMM/RAPID.png" alt="RAPID logo">
+          <h1>Empowering Rural Entrepreneurs Initiative By The Bank of Industry</h1>
+        </div>
+        <article>
+          <p>The Federal Government, in collaboration with the <i>Bank of Industry (BOI)</i>, has unveiled the <b>Rural Area Programme on Investment and Development (RAPID)</b>, a strategic initiative designed to bolster youth and women-led enterprises in Nigeria's underserved communities.</p>
+          <p>The RAPID scheme is set to inject vital capital and open new avenues for rural populations, directly confronting the persistent issue of rural-urban migration. The program's core objective is to promote economic inclusivity, ensuring that residents of rural areas have fair access to financial resources.</p>
+          <p>In a significant move, the BOI has pledged robust financial backing, with potential grants reaching up to 10 million naira for each qualifying project. The focus is on aiding existing small-scale businesses that are poised for growth, as well as nurturing new ventures, particularly those led by youth and women entrepreneurs. Beneficiaries can expect a three-year repayment window complemented by a six-month grace period, all at an accommodating interest rate of 5%.</p>
+          <p>The pilot phase of RAPID is set to benefit a select group of 10 entrepreneurs from each state, including the Federal Capital Territory, culminating in a total of 370 recipients.</p>
+          <p>To maximize the program's reach, interested parties can apply through a specially designated online platform or in person at any BOI district office across the nation.</p>
+          <p>Prospective applicants should note that the registration portal, accessible at <a href="https://rapid.boi.ng/register" target="_blank">rapid.boi.ng/register</a>, will close on <time datetime="2024-05-29">May 29th</time>. Potential candidates are encouraged to act swiftly to take advantage of this opportunity.</p>
+        </article>
+      </main>
+    `);
+    addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/interest/i4_FG-RAPID');
+    addElement(article, 'pubDate', new Date().toUTCString());
+  
+
     
+
+
+
+
+
     // Serialize XML document to string
     let serializer = new XMLSerializer();
     let xmlString = serializer.serializeToString(rssDoc);
