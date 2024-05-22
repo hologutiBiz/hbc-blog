@@ -10,8 +10,6 @@ header .hbc-i-container {
 
 
 
-
-
 footer {
     background-color: #000;
     padding: 50px 0;
@@ -30,4 +28,33 @@ footer {
 .fa-brands:hover {
     color: #ffc0cb; 
     transition: 0.4s;
+}
+
+
+@media screen and (max-width: 700px) {
+    .home {
+        color: #0000ff;
+        position: absolute;
+        top: 0;
+        left: 35%;
+        font-size: 24px;
+    }    
+    .home:hover {
+        color: #0000ff;
+        background-color: transparent;
+        border: 1px solid #ffffff9b;
+    }
+}
+
+
+
+@media screen and (max-width: 359px) {
+    body {
+        position: relative;
+        width: 100%;
+    }
+
+    .headline img {
+        width: 250px;
+    }   
 }
