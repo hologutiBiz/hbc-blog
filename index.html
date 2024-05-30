@@ -38,6 +38,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./style-folder/education.css">
     <link rel="stylesheet" href="/style-folder/social.css">
     <link rel="stylesheet" href="/style-folder/tech.css">
 
@@ -59,7 +60,7 @@
 
         header {
             display: flex;
-            background-color: #000000da;
+            background-color: #0000ff;
         }
         .brand-wrapper img {
             border-radius: 10px; 
@@ -83,6 +84,9 @@
             margin: 0.5em;
             gap: 10px;
         }
+        .brand-name {
+            font-weight: bold;
+        }
 
         nav ul {
             list-style: none;
@@ -92,23 +96,21 @@
         nav ul li a {
             color: #fff;
             text-decoration: none;
-            padding: 10px;
+            padding: 5px;
             font-size: 1.1rem;
         }
         nav ul li a:hover,
         nav ul li a:visited:hover {
-            color: #00ffff;  
-            border-bottom: 1px solid #00ffff;
-            border-radius: 10px;
+            border-bottom: 1px solid #fff;
             transition: 0.4s;
         }
-        nav ul li a:visited {
-            color: #add8eb;
-        }
+       
 
         .welcome {
+            color: #c50505;
             text-align: center;
             margin: 5rem 0;
+            font-weight: 400;
         }
        
         
@@ -160,11 +162,11 @@
                 /* main section for all articles */
             /* General Tag like topic, */
         .topic {
-            color: #fff;
+            color: #ff0000; 
             width: 100%;
-            text-align: center;
-            background-color:#00000084;
-            border-radius: 20px;
+            text-transform: uppercase;
+            text-align: left;
+            border-bottom: 1px solid #c50505;
             font-weight: bolder;
             font-size: 2rem;
         }
@@ -179,13 +181,11 @@
             margin: 2rem 0 0;
             background-color: #000000e7;
             gap: 20px;
-            /* background: radial-gradient(#add8eb, #000); */
         }
         .fa-brands {
             color: #fff;
             margin: 0.5em; 
             font-size: 24px;
-            /* background-color: #00ffff; */
         }
         .handles {
             display: flex;
@@ -246,7 +246,6 @@
                 }
 
                 .lastest {
-                    /* width: inherit; */
                     margin: 0.3em;
                     flex-direction: column;
                 }
@@ -282,24 +281,6 @@
                     width: 100%;
                 }
                 
-
-                /* header {
-                    position: relative;
-                    padding: 40px 0 0;
-                    background-color: transparent;
-                } */
-/* 
-                nav {
-                    flex-direction: column;
-                    padding: 40px 0;
-                    margin: 2rem 0 0;
-                    background-color: #000;
-                }  */
-                /* .brand-wrapper {
-                    flex-direction: column;
-                    justify-content: flex-start;
-                    margin: 0;
-                } */
                 .brand-name {
                     margin: 0.2em;
                     font-size: 20px; 
@@ -361,13 +342,13 @@
     <header>
         <nav>
             <div class="brand-wrapper">
-                <img src="https://i.postimg.cc/gcHQJd7n/hbc-dark-rectangle-logo-200-100.png" class="brand-logo" alt="logo">
+                <!-- <img src="https://i.postimg.cc/gcHQJd7n/hbc-dark-rectangle-logo-200-100.png" class="brand-logo" alt="logo"> -->
                 <!-- <h1 class="brand-name">Hologuti Business Centre - insights</h1> -->
                 <span class="brand-name">Hologuti Business Centre - Insights</span>
             </div>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a>Education</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a>Health</a></li>
                 <li><a href="#socialInterest">Social Interest</a></li>
                 <li><a href="#techAndInnovation">Tech & Innovation</a></li>
@@ -426,30 +407,57 @@
             </article>
         </section>
 
-        <!-- previous, Education-->
-        <!-- <section class="education" id="education">
+        <!-- Section, Education-->
+        <section class="education" id="education">
             <h1 class="topic">Education</h1>
-            <article>
-                <a href="https://insights.hologutibusinesscentre.com/education/2-FG-student-loan" target="_blank">
-                    <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg" alt="nelf logo">
-                    <div>
-                        <h3>opening date for Nigeria's Student Loan application portal</h3>
-                        <time datetime="2024-05-17"><small>April 23, 2024</small></time>
-                        <p>The Federal Government of Nigeria invites all eligible students to mark ...</p>
-                    </div>
-                </a>
-            </article>
-            <h1></h1>
-            <article>
-                <a>
-                    <img>
-                    <div>
-                        <h2></h2>
-                        <h3></h3>
-                    </div>
-                </a>
-            </article>
-        </section> -->
+            <div class="space-divider">
+                <div class="image-container">
+                    <p>Here you get available info on education</p>
+                </div>
+                <div class="articles-container">
+                    <article>
+                        <a href="https://insights.hologutibusinesscentre.com/education/E4-student-loan-official-lunch" target="_blank">
+                            <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg" alt="nelfund">
+                            <div>
+                                <h4>How to Apply for Nigerian Student Loan Fund</h4>
+                                <p>Nigerian Student Loan application Step-by-step</p>
+                                <time datetime="2024-05-24"><small>PubDate: Fri, 24 May 2024</small></time>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="https://insights.hologutibusinesscentre.com/education/e3-neco-important-notice" target="_blank">
+                            <img src="https://i.postimg.cc/NFbc4hX4/neco-logo-372.jpg" alt="neco">
+                            <div>
+                                <h4>NECO Important Notice</h4>
+                                <p>National Examinations Council (NECO) Issues Important Clarification</p>
+                                <time datetime="2024-05-18"><small>PubDate: Sat, 18 May 2024</small></time>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="https://insights.hologutibusinesscentre.com/education/2-FG-student-loan" target="_blank">
+                            <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg" alt="nelf logo">
+                            <div>
+                                <h4>Nigeria Student Loan</h4>
+                                <p>opening date for Nigeria's Student Loan application portal</p>
+                                <time datetime="2024-05-17"><small>PubDate: Fri, 17 May 2024</small></time>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="https://insights.hologutibusinesscentre.com/education/jamb-2024-result" target="_blank">
+                            <img src="https://i.postimg.cc/NjKxY5gT/JAMB-2024-RESULT.png" alt="JAMB">
+                            <div>
+                                <h4>How to Check JAMB 2024 Result</h4>
+                                <p>JAMB clarifies to candidates the only way to check the 2024 UTME results</p>
+                                <time datetime="2024-05-06"><small>PubDate: Mon, 6 May 2024</small></time>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
 
         <section class="" id="">
             <h1></h1>

@@ -1,0 +1,67 @@
+
+.education {
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    margin: 1rem;
+}
+.space-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.image-container {
+    width: 40%;
+    height: 350px;
+    background-image: url("https://i.postimg.cc/VkC96Lqx/school-work-851328-640.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.image-container p {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+.education article {
+    display: flex;
+    width: inherit;
+    height: 70px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #fff; 
+    box-shadow: 1px 2px 5px 0px #000;
+    border-radius: 10px;
+}
+.education article img {
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 2px 5px 0px #00000052;
+    border: 1px thin #008000; 
+}
+.education article a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.education article a > * {
+    line-height: 0.2;
+    margin: 7px;
+    font-size: 0.9em;
+}
+.education article a time {
+    color: #ff0000;
+    text-decoration: none;
+}
+.education article:hover {
+    background-color: #000;
+    transition: 0.4s;
+}
+.education article:hover > a {
+    color: #fff;
+}
+.education article:hover > a img {
+    box-shadow: 1px 2px 5px 0px #f5f5f5;
+}
