@@ -107,35 +107,41 @@
        
 
         .welcome {
-            color: #c50505;
+            /* color: #c50505; */
             text-align: center;
             margin: 5rem 0;
             font-weight: 400;
         }
        
         
-       
-    
         .lastest {
-            display: flex;
+            display: block;
+            width: 600px;
+            /* height: 300px; */
+            margin: 0 auto;
+            border: 1px solid #0000ff;
+            border-radius: 10px;
+            background-color: #000;
+
+            /* display: flex;
             margin: 2rem;
             background-color: #f5f5f5;
-            background: radial-gradient(#add8eb, #000);
+            background: radial-gradient(#add8eb, #000); */
         }
-        .delivering-insightful {
+        /* .delivering-insightful {
             color: #fff;
             width: 50%;
             margin: 1em;
             text-align: center;
             border-radius: 5px;
             font-size: 1.5em;
-        }
+        } */
 
-        .lastest article {
+        /* .lastest article {
             margin: 1em;
             width: 50%;
-        }
-        .lastest article a {
+        } */
+        /* .lastest article a {
             display: flex;
             text-decoration: none;
             margin: 7px 10px 7px 0;
@@ -143,20 +149,20 @@
             border-bottom: 1px solid #00000027;
             border-radius: 10px;
             padding: 10px 0 10px 5px;
-        }
+        } */
 
-        .lastest article a img {
+        /* .lastest article a img {
             width: 200px;
             height: 120px;
             padding: 10px 0;
             background: #fff;
             border-right: 1px solid #00000011;
-        }
+        } */
 
-        .lastest .content-text > * {
+        /* .lastest .content-text > * {
             margin: 1em;
             line-height: 15px;
-        }
+        } */
 
 
                 /* main section for all articles */
@@ -370,14 +376,30 @@
     <main>
         <!-- lastest-->
         <section class="lastest">
-            <div class="delivering-insightful">
+            <div>
+                <article class="lastest-article lastest-one">
+                    <a>
+                        <h1>Nigerian Student Loan Application Step-by-step</h1>
+                    </a>
+                </article>
+                <article class="lastest-article lastest-two">
+                    <a>
+                        <h1> Federal Government Unveiling a Path to Homeownership in Nigeria</h1>
+                    </a>
+                </article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sunt dicta, mollitia aspernatur harum cupiditate dolores consequatur, hic suscipit illum facere eos quo laudantium vitae possimus, laborum enim ad voluptatem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sunt dicta, mollitia aspernatur harum cupiditate dolores consequatur, hic suscipit illum facere eos quo laudantium vitae possimus, laborum enim ad voluptatem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sunt dicta, mollitia aspernatur harum cupiditate dolores consequatur, hic suscipit illum facere eos quo laudantium vitae possimus, laborum enim ad voluptatem.</p>
+                
+            </div>
+            <!-- <div class="delivering-insightful">
                 <p>Lastest articles</p>
                 <ul>
                     <li>JAMB 2024 Result</li>
                     <li>Expression of Interest new deadline</li>
                     <li>Nigeria Credit Corporation</li>
                 </ul>
-            </div>
+            </div> -->
                 <!-- 
                 <a href="https://insights.hologutibusinesscentre.com/interest/CrediCorp">
                     <img src="https://i.postimg.cc/mgRszqzz/Credi-Corp-removebg-preview.png">
@@ -387,7 +409,7 @@
                         <time datetime="2024-04-25"><small>April 25, 2024</small></time>
                     </div>
                 </a> -->
-            <article>
+            <!-- <article>
                     <a href="https://insights.hologutibusinesscentre.com/education/jamb-2024-result">
                     <img src="https://i.postimg.cc/NjKxY5gT/JAMB-2024-RESULT.png">
                     <div class="content-text">
@@ -404,7 +426,7 @@
                         <time datetime="2024-05-03"><small>May 3, 2024</small></time>
                     </div>
                 </a>
-            </article>
+            </article> -->
         </section>
 
         <!-- Section, Education-->
@@ -472,53 +494,58 @@
             </article>
         </section>
 
-                <!-- previous, Social interest-->
+                <!-- Section, Social interest-->
         <section class="social-interest" id="socialInterest">
             <h1 class="topic">Social Interest</h1>
-            <div class="s-article-wrapper">
-            <article class="">
-                <a href="https://insights.hologutibusinesscentre.com/interest/FG-large-and-MSME_loan">
-                    <img src="https://i.postimg.cc/9FvNskSt/federal-grant-loan-300-132.jpg">
-                    <div>
-                        <h3>The Federal Government Lunches Loan Application</h3>
-                        <time datetime="2024-04-23"><small>April 23, 2024</small></time>
-                        <p>
-                            The Federal Government of Nigeria is set to disburse funds to ...
-                        </p>
-                        <!-- <i class="fa fa-arrow-right" aria-hidden="true"></i> -->
-                    </div>
-                </a>
-                <!-- <a>
-                    <div>
-                        <h2></h2>
-                        <h3></h3>
-                    </div>
-                </a> -->
-            </article>
-            <article>
-                <a href="https://insights.hologutibusinesscentre.com/interest/CrediCorp">
-                    <img src="https://i.postimg.cc/qRtqFgW7/Credi-Corp-300-107.jpg">
-                    <div>
-                        <h3>Nigeria Consumer Credit Corporation (CrediCorp)</h3>
-                        <time datetime="2024-04-25"><small>April 25, 2024</small></time>
-                        <p>Nigeria lunches Credit facilitating platform, Nigeria Consumer Credit Corporation (CrediCorp). 
-                            The company is owned by the Federal Government of Nigeria with the primary goal of increasing...
-                        </p>
+            <div class="s-space-divider">
+                <div class="s-image-container">
 
+                </div>
+                <div class="s-article-wrapper">
+                    <article class="">
+                        <a href="https://insights.hologutibusinesscentre.com/interest/FG-large-and-MSME_loan">
+                            <img src="https://i.postimg.cc/9FvNskSt/federal-grant-loan-300-132.jpg">
+                            <div>
+                                <h3>The Federal Government Lunches Loan Application</h3>
+                                <time datetime="2024-04-23"><small>April 23, 2024</small></time>
+                                <p>
+                                    The Federal Government of Nigeria is set to disburse funds to ...
+                                </p>
+                                <!-- <i class="fa fa-arrow-right" aria-hidden="true"></i> -->
+                            </div>
+                        </a>
+                        <!-- <a>
+                            <div>
+                                <h2></h2>
+                                <h3></h3>
+                            </div>
+                        </a> -->
+                    </article>
+                    <article>
+                        <a href="https://insights.hologutibusinesscentre.com/interest/CrediCorp">
+                            <img src="https://i.postimg.cc/qRtqFgW7/Credi-Corp-300-107.jpg">
+                            <div>
+                                <h3>Nigeria Consumer Credit Corporation (CrediCorp)</h3>
+                                <time datetime="2024-04-25"><small>April 25, 2024</small></time>
+                                <p>Nigeria lunches Credit facilitating platform, Nigeria Consumer Credit Corporation (CrediCorp). 
+                                    The company is owned by the Federal Government of Nigeria with the primary goal of increasing...
+                                </p>
+        
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="https://insights.hologutibusinesscentre.com/interest/EOI-extension">
+                            <img src="https://i.postimg.cc/9FvNskSt/federal-grant-loan-300-132.jpg">
+                            <div>
+                                <h3>Federal Ministry of Industry, Trade, and Investment announces New Deadline for Nigeria Diaspora Fund Expression of Interest</h3>
+                                <time datetime="2024-05-03">May 5, 2024</time>
+                                <p> The Ministry wishes to inform stakeholders that the deadline for the submission of...</p>
+                                <i class="fa-thin fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </article>
                     </div>
-                </a>
-            </article>
-            <article>
-                <a href="https://insights.hologutibusinesscentre.com/interest/EOI-extension">
-                    <img src="https://i.postimg.cc/9FvNskSt/federal-grant-loan-300-132.jpg">
-                    <div>
-                        <h3>Federal Ministry of Industry, Trade, and Investment announces New Deadline for Nigeria Diaspora Fund Expression of Interest</h3>
-                        <time datetime="2024-05-03">May 5, 2024</time>
-                        <p> The Ministry wishes to inform stakeholders that the deadline for the submission of...</p>
-                        <i class="fa-thin fa-arrow-right"></i>
-                    </div>
-                </a>
-            </article>
             </div>
         </section>
 
