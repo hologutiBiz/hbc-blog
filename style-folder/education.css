@@ -71,12 +71,45 @@
         @media screen and (max-width: 700px) {
             body {
                 width: 100%;
+                margin: 0;
             }
-
+            .education {
+                margin: 0;
+            }
             .space-divider {
                 flex-direction: column;
             }
             .image-container {
                 width: 100%;
+            }
+
+            .education article {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 15px 0;
+                margin: 15px 0;
+                /* background-color: #ff0000; */
+            }
+            .education article a {
+                width: 100%;
+                height: inherit;
+                padding: 10px 0;
+                /* background-color: #fff000; */
+                margin: 0;
+            }
+            .education article a div p,
+            .education article a div h4 {
+                width: 100%;
+                margin: 0.6em 0;
+                line-height: 15px; 
+                font-size: 0.9em;
+            }
+            .education article a > * {
+                line-height: 0.2;
+                /* margin: 5px 0 5px 5px; */
+                font-size: 0.9em;
             }
         }

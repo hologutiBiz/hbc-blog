@@ -114,9 +114,11 @@
         }
        
 
-        /* main section {
-            margin: 0 0 15rem 0; 
-        } */
+        main  {
+            display: flex;
+            flex-direction: column;
+            gap: 15rem;
+        } 
         
         .lastest {
             display: block;
@@ -125,6 +127,9 @@
             border: 1px solid #0000ff;
             border-radius: 10px;
             background-color: #000;
+        }
+        .lastest div {
+            width: inherit;
         }
         /* .delivering-insightful {
             color: #fff;
@@ -253,10 +258,10 @@
                     margin: 0.3em;
                     flex-direction: column;
                 }
-                .delivering-insightful {
-                    width: 100%;
-                    margin: 0;
+                .lastest div {
+                    width: inherit;
                 }
+                
                 .lastest article {
                     display: block;
                     margin: 0 auto;
@@ -311,28 +316,29 @@
                     background-color: #f5f5f5; 
                 }
 
-                /* .lastest {
+                .lastest {
+                    width: inherit;
                     margin: 0.3em;
                     flex-direction: column;
-                } */
+                } 
                 /* .delivering-insightful,
                 .lastest article  {
                     width: 100%;
                     margin: 0;
                 } */
-                .lastest article a {
+                /* .lastest article a {
                     display: block;
                     margin: 10px auto;
-                }
-                .lastest article a img {
+                } */
+                /* .lastest article a img {
                     width: 280px;
                     border-top: 1px solid #00000027;
                     border-bottom: 1px solid #00000027;
-                }
-                .lastest .content-text > * {
+                } */
+                /* .lastest .content-text > * {
                     font-size: 1.5rem;
                     line-height: 1.2;
-                }  
+                }   */
             }
   
     </style>
