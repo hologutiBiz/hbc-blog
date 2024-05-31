@@ -306,6 +306,28 @@ function generateRSSFeed() {
     addElement(article, 'pubDate', new Date().toUTCString());
 
 
+     // article 12 //
+     addElement(article, 'title', 'State Tertiary Institution NELFUND Application Commencement');
+     addElement(article, 'description', `
+          <main>
+            <div class="headline">
+              <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg" atl="NELFund logo">
+              <h1>NELFUND Set to Begin Application Acceptance from Students Attending State-owned Tertiary Institutions</h1>
+            </div>
+            <article>
+              <p>In a significant move to make higher education more accessible, <abbr title="Nigerian Education Loan Fund">NELFUND</abbr> has announced the commencement of application acceptance from students attending state-owned tertiary institutions. This initiative, spearheaded by <b>Mr. Akintunde Sawyerr</b>, <i>the Managing Director and CEO of</i> <abbr title="Nigerian Education Loan Fund">NELFUND</abbr>, is set to begin in <em>three weeks</em>, marking a pivotal moment for students across the nation.</p>
+              <p>The decision aligns with <abbr title="Nigerian Education Loan Fund">NELFUND</abbr>'s core mission to democratize higher education, ensuring that more students could pursue their academic goals without financial constraints. The organization has called upon all state institutions to submit their students' data promptly to ensure a smooth application process.</p>
+              <p>This development comes as a beacon of hope for many students who often face financial barriers when seeking higher education. By extending to state-owned institutions, <abbr title="Nigerian Education Loan Fund">NELFUND</abbr> is targeting a significant portion of the student population that could benefit from such funding.</p>
+              <p>The implications of this initiative are far-reaching. It not only opens doors for deserving students but also sets a precedent for other organizations to follow suit in supporting education. The move by <abbr title="Nigerian Education Loan Fund">NELFUND</abbr> is a testament to the power of collective effort in making education inclusive and equitable.</p>
+              <p><i>This is a developing story, and we will continue to provide coverage as more details emerge. Education is a right, and with NELFUND's new initiative, it is becoming more attainable for students across the country.</i></p>
+            </article>
+        </main>
+        <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg">
+      `);
+     addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/education/E5-state-tertiary-institution-NELFUND');
+     addElement(article, 'pubDate', new Date().toUTCString());
+
+
 
     // Serialize XML document to string
     let serializer = new XMLSerializer();
