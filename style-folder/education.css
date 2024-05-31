@@ -65,3 +65,18 @@
 .education article:hover > a img {
     box-shadow: 1px 2px 5px 0px #f5f5f5;
 }
+
+
+
+        @media screen and (max-width: 700px) {
+            body {
+                width: 100%;
+            }
+
+            .space-divider {
+                flex-direction: column;
+            }
+            .image-container {
+                width: 100%;
+            }
+        }
