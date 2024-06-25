@@ -331,19 +331,6 @@ function generateRSSFeed() {
       // article 13 //
      addElement(article, 'title', 'CBN Press Release on Heritage Bank');
      addElement(article, 'description', `
-        <header>
-         <div class="hbc-i-container">
-           <img src="https://i.postimg.cc/B63VtBWS/hbc-white-rectangle-logo-400-200.png" class="hbc-i one">
-           <img src="https://i.postimg.cc/B63VtBWS/hbc-white-rectangle-logo-400-200.png" class="hbc-i one">
-         </div>
-         <nav>
-          <div class="name-wrapper">
-           <span class="name">Insights:</span> 
-           <span class="name">Bank Retail</span> 
-          </div>
-          <ul><li><a class="home" href="/">Home</a></li></ul> 
-         </nav>
-        </header>
         <main>
          <div class="headline">
           <img src="https://i.postimg.cc/CLJ9wFTh/cbn.jpg" alt="CBN logo"> 
@@ -357,15 +344,6 @@ function generateRSSFeed() {
           <p>This development is a reminder of the regulatory body's readiness to enforce compliance and its role in promoting a healthy banking environment. The CBN's proactive stance serves as a warning to other financial institutions to uphold the highest standards of operation in line with the nation's financial laws.</p>
          </article>
         </main>
-        <footer>
-         <p><i>For more insights contents, follow us on our social media handles</i></p>
-         <div class="icon-wrapper">
-          <a href="https://web.facebook.com/insightsHBC" aria-label="connect with us on facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://twitter.com/insights_HBC" aria-label="connect with us on X (formerly twitter)" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-          <a href="https://m.me/322206240972087" aria-label="connect with us on facebook messenger" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>  
-          <a href="" aria-label="connect with us on instagram" ><i class="fa-brands fa-square-instagram"></i></a>
-         </div>
-        </footer>
       `);
      addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/bankretail/b2-CBN-revoke-bank-license');
      addElement(article, 'pubDate', new Date().toUTCString());
@@ -374,19 +352,6 @@ function generateRSSFeed() {
       // article 14 //
      addElement(article, 'title', 'NDIC Initiates Liquidation of Heritage Bank');
      addElement(article, 'description', `
-     <header>
-      <div class="hbc-i-container">
-       <img src="https://i.postimg.cc/B63VtBWS/hbc-white-rectangle-logo-400-200.png" class="hbc-i one">
-       <img src="https://i.postimg.cc/B63VtBWS/hbc-white-rectangle-logo-400-200.png" class="hbc-i one">
-      </div>
-      <nav>
-       <div class="name-wrapper">
-        <span class="name">Insights:</span> 
-        <span class="name">Banking</span> 
-       </div>
-       <ul><li><a class="home" href="/">Home</a></li></ul> 
-      </nav>
-     </header>
      <main>
       <div class="headline">
        <img src="https://i.postimg.cc/DZth6mM2/NDIC.png" alt="Nigeria Deposit Issurance Corporation">
@@ -402,18 +367,34 @@ function generateRSSFeed() {
       </article>
      </main>
      <aside><small>Refer to NDIC website for full detail</small></aside>
-     <footer>
-      <p><i>For more insights contents, follow us on our social media handles</i></p>
-      <div class="icon-wrapper">
-       <a href="https://web.facebook.com/insightsHBC" aria-label="connect with us on facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-       <a href="https://twitter.com/insights_HBC" aria-label="connect with us on X (formerly twitter)" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-       <a href="https://m.me/322206240972087" aria-label="connect with us on facebook messenger" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>  
-       <a href="" aria-label="connect with us on instagram" ><i class="fa-brands fa-square-instagram"></i></a>
-      </div>
-     </footer>
       `);
      addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/bankretail/b3-NDIC-heritage-bank-liquidation');
      addElement(article, 'pubDate', new Date().toUTCString());
+
+
+     
+            // article  15//
+    addElement(article, 'title', 'NELFUND Postponement');
+    addElement(article, 'description', `
+        <main>
+         <div class="headline">
+          <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg" alt="NELFUND logo">
+          <h1>The Nigerian Education Loan Fund (NELFUND) Announces Postponement</h1>
+         </div>
+         <article> 
+          <p>The <b>Nigerian Education Loan Fund (NELFUND)</b> has recently announced a 14-day postponement in the application process for student loans for state institutions. This delay, attributed to low data submissions from state-owned institutions, underscores the complexities involved in managing and processing educational financial aid.</p>
+          <p>The postponement was a necessary measure taken by <b>NELFUND</b> due to the failure of several state-owned institutions to upload the required student data and fees information to the <b>NELFUND</b> Student Verification System (SVS). As of now, a fraction of the institutions have met the requirements, with 20 state universities, 12 state colleges, and 2 state polytechnics having successfully completed the data submission process.</p>
+          <p>The importance of this data cannot be overstated, as it is crucial for a seamless and accurate verification process for student loan applicants. The initial application window, which was set to open on <time datetime="2024-06-25">June 25, 2024</time>, will now commence on <time datetime="2024-07-10">July 10, 2024</time>. This extension is intended to provide additional time for state institutions to comply with the data submission requirements, ensuring that their students are not deprived of the opportunity to benefit from the Federal Government's student loan scheme.</p>
+          <p>For an efficient and error-free application process, it is imperative that all state institutions provide complete and accurate information, including JAMB numbers, matriculation numbers, admission numbers, full names, levels, faculties, departments, duration of programs, fees, and gender of all eligible students. Incomplete or incorrect data submissions could lead to application delays and potential disqualification for affected students.</p>
+          <p><b>NELFUND's</b> decision highlights the fund's commitment to facilitating access to education through financial support. It also serves as a reminder of the collective responsibility of educational institutions to ensure the accuracy of the information provided. Institutions that fail to meet the revised deadline risk disadvantaging their students, who rely on these loans for educational support.</p>
+          <p>The situation calls for a concerted effort from all parties involved to expedite their data submission processes. It is a critical moment for the educational sector to demonstrate its ability to adapt and respond to challenges, ensuring that no student is left behind due to administrative hurdles.</p>
+          <p>As the new application window approaches, the hope is that all institutions will rise to the occasion, fulfilling their obligations and enabling a smooth transition into the next phase of the student loan application process. The future of many students depends on it.</p>
+         </article>
+         </main>         
+         <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg"> 
+      `);
+    addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/education/E6-application-postpone-for-state-institution');
+    addElement(article, 'pubDate', new Date().toUTCString());
 
 
 
