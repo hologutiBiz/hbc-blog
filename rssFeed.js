@@ -397,6 +397,66 @@ function generateRSSFeed() {
     addElement(article, 'pubDate', new Date().toUTCString());
 
 
+            // article 16 //
+    addElement(article, 'title', 'NELFund Onboarded 36 State-Owned Tertiary Institutions');
+    addElement(article, 'description', `
+        <main>
+         <div class="headline">
+          <img src="https://i.postimg.cc/tTwNXC4f/nelf-logo.jpg" alt="NELFUND logo">
+          <h1>NELFund Onboarded 36 State-Owned Tertiary Institutions</h1>
+         </div>
+         <article>
+          <p>In a significant move to broaden educational opportunities, the <b>Nigerian Education Loan Fund (NELFund)</b> has declared that students from 36 state-owned tertiary institutions are now eligible to apply for student loans. This announcement, effective as of <time datetime="2024-07-07">July 7, 2024,</time> marks a pivotal moment for higher education in Nigeria.</p>
+          <p>The NELFund's initiative aims to alleviate the financial burden on students pursuing higher education. By integrating these institutions into the NELFund <i>Student Verification System (SVS)</i>, the management has streamlined the process, ensuring a more efficient and accessible loan application experience for students.</p>
+          <p>The inclusion of these institutions signifies NELFund's commitment to supporting students' aspirations and educational goals. The fund encourages other state-owned tertiary institutions to follow suit and submit their student data to the SVS promptly, enabling more students to benefit from this vital financial support.</p>
+          <p>The list of newly onboarded institutions spans across various states, reflecting the diversity and reach of the program. They are:</p>
+          <ol>
+            <li>Adamawa State University, Mubi </li>
+            <li>Ramat Polytechnic, Maiduguri </li>
+            <li>Borno State University </li>
+            <li>Mohammet Lawan college of Agriculture, Borno State </li>
+            <li>Edo State University, Uzairue </li>
+            <li>Ekiti State University, Ado-Ekiti</li>
+            <li>Gombe State University </li>
+            <li>Kingsley Ozumba Mbadiwe University, Imo State </li>
+            <li>Imo State University of Agriculture and Environmental Sciences Umuagwo</li>
+            <li>Nuhu Bamalli Polytechnic, Zaria </li>
+            <li>Yusuf Maitama Sule University, Kano </li>
+            <li>Umaru Musa Yar’adua University, Katsina </li>
+            <li>Katsina State Institute of Technology and Management </li>
+            <li>Kebbi State University of Science and Technology, Aliero</li>
+            <li>Confluence University of Science and Technology, Kogi state</li>
+            <li>Lagos state university of education</li>
+            <li>Lagos State University </li>
+            <li>Nasarawa State University, Keffi </li>
+            <li>Tai Solarin University of Education, Ogun state </li>
+            <li>University of Medical Sciences, Ondo </li>
+            <li>Osun State University </li>
+            <li>UNIVERSITY OF ILESA, OSUN STATE </li>
+            <li>GTC, ARA Osun State </li>
+            <li>GTC, GBONGAN Osun State </li>
+            <li>GTC, IJEBU-JESA Osun State </li>
+            <li>GTC, ILE-IFE Osun State </li>
+            <li>GTC, INISA Osun State </li>
+            <li>GTC, IWO Osun State </li>
+            <li>GTC,OSU Osun State </li>
+            <li>GTC, OTAN AYEGBAJU Osun State </li>
+            <li>OSUN STATE COLLEGE OF EDUCATION, ILA-ORANGUN </li>
+            <li>GOVERNMENT TECHNICAL COLLEGE ILE-IFE </li>
+            <li>OSUN STATE COLLEGE OF TECHNOLOGY</li>
+            <li>Taraba State University, Jalingo </li>
+            <li>Umar Suleiman College of Education, Gashua, Yobe State </li>
+            <li>Zamfara State University, Talata Mafara</li>
+          </ol>
+          <p>This development is not just a win for the students but also for the educational landscape of Nigeria. It represents a step towards creating a more equitable environment where financial constraints are less of a barrier to accessing quality education.</p>
+          <p>Students from the listed institutions are encouraged to take advantage of this opportunity to finance their education and invest in their futures. With the support of NELFund, the path to academic success is now more accessible than ever.</p>
+          <p>For more information on the application process and eligibility criteria, students are advised to contact their respective institution's administrative offices or visit the NELFund official website.</p>
+          </article>
+        </main>
+      `);
+    addElement(article, 'link', 'https://insights.hologutibusinesscentre.com/education/E7-student-loan-application-for-state-owned-tertiary-institutions');
+    addElement(article, 'pubDate', new Date().toUTCString());
+
 
 
     // Serialize XML document to string
