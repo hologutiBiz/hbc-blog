@@ -11,6 +11,7 @@
 }
 .s-article-wrapper article {
     flex-basis: 33.33%;
+    flex-wrap: wrap;
     margin: 1em;
     padding: 10px 0;
     background-color: #fff;
